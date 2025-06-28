@@ -16,7 +16,7 @@ Our governance model is therefore built upon three fundamental acknowledgementsâ
 
 This philosophy stems from the principle of Do-ocracy. Our approach is heavily inspired by the "Hackerspace Blueprint," a document where the community at Hackerspace Gent masterfully applied these principles. To make this system truly effective for a global, digitally-native collective, we have evolved their model into what we call **Intentional Do-ocracy**â€”our framework for turning ideas into effective action.
 
-The goal of this Constitution is to empower our community to get the best out of themselves. It is a system designed to stimulate collaboration and creative problem-solving, and you can download the latest version as a **[PDF](https://web3privacy.github.io/constitution/w3pn-constitution.pdf)** or **[ePub](https://web3privacy.github.io/constitution/w3pn-constitution.epub)**. It is, by design, a work in progress. That is why [this Constitution is hosted on GitHub](https://github.com/web3privacy/constitution), enabling our community to continuously refine it and for other organizations to learn from our journey.
+The goal of this Constitution is to empower our community to get the best out of themselves. It is a system designed to stimulate collaboration and creative problem-solving, and you can **[download the latest version as a PDF](https://web3privacy.github.io/constitution/w3pn-constitution.pdf)** or **[ePub](https://web3privacy.github.io/constitution/w3pn-constitution.epub)**. It is, by design, a work in progress. That is why [this Constitution is hosted on GitHub](https://github.com/web3privacy/constitution), enabling our community to continuously refine it and for other organizations to learn from our journey.
 
 # 1. Overview
 

@@ -25,6 +25,7 @@ The path to becoming a Member is through contribution. A Supporter or new contri
 #### Rights of a Member
 
 Once recognized, a Member has the full governance rights outlined in this Constitution, including the right to:
+
 * Initiate projects under Intentional Do-ocracy.
 * Create a Formal Proposal.
 * Formally object to a proposal during the review period.
@@ -33,6 +34,7 @@ Once recognized, a Member has the full governance rights outlined in this Consti
 #### Responsibilities of a Member
 
 With these rights come responsibilities:
+
 * To act in good faith and uphold the principles of this Constitution.
 * To actively foster a healthy and collaborative environment.
 * To use their governance rights thoughtfully and respectfully.
