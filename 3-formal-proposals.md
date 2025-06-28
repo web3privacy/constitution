@@ -43,6 +43,7 @@ This high bar ensures that the Stewards act as judges of principle, not as a typ
 ## Why This Model?
 
 This "Lazy Consensus" and veto model is superior to democratic voting for our context because:
+
 * **It is efficient.** It defaults to action and requires zero effort if a proposal is sound and well-socialized.
 * **It empowers doers.** It removes the need to lobby for "yes" votes and instead focuses on ensuring no critical harm is done.
 * **It avoids bikeshedding.** It elevates objections from matters of taste to matters of principle, filtering out low-stakes disagreements.
