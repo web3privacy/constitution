@@ -1,10 +1,17 @@
-# .github/workflows/build.yml
-
 name: Build and Deploy to GitHub Pages
 
 on:
   push:
     branches: [ master ]
+    paths:
+      - '**.md'
+      - 'pandoc-metadata.yaml'
+      - 'epub-fonts/**'
+      - 'epub.css'
+      - 'eisvogel.tex'
+      - 'include-cover.tex'
+      - 'include-back.tex'
+      - '.github/workflows/build.yml'
   workflow_dispatch:
 
 permissions:
@@ -12,106 +19,152 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      # 1. Cache APT packages
-      - name: Cache APT packages
-        id: cache-apt-packages
-        uses: actions/cache@v4
-        with:
-          # The path to cache includes the list of available packages and the downloaded debs
-          path: |
-            /var/cache/apt/archives
-            /var/lib/apt/lists
-          # The key is composed of the runner's OS and a hash of the workflow file.
-          # If you change the list of packages below, the hash will change, invalidating the cache.
-          key: ${{ runner.os }}-apt-cache-${{ hashFiles('.github/workflows/build.yml') }}
-          restore-keys: |
-            ${{ runner.os }}-apt-cache-
-
-      # 2. Install dependencies (conditionally updating)
-      - name: Install Build Dependencies
-        run: |
-          # Only run apt-get update if the cache was not restored
-          if [[ "${{ steps.cache-apt-packages.outputs.cache-hit }}" != "true" ]]; then
-            echo "Cache not found, running apt-get update..."
-            sudo apt-get update
-          else
-            echo "Cache restored successfully."
-          fi
-          # The install command always runs, but it will use cached debs if available.
-          sudo apt-get install -y --no-install-recommends \
-            pandoc \
-            texlive-latex-extra \
-            texlive-fonts-recommended \
-            texlive-fonts-extra \
-            texlive-extra-utils \
-            poppler-utils
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          pandoc \
+          texlive-plain-generic \
+          texlive-latex-extra \
+          texlive-fonts-recommended \
+          texlive-fonts-extra \
+          texlive-extra-utils \
+          poppler-utils
+    
+    - name: Generate EPUB
+      run: |
+        pandoc --verbose \
+          pandoc-metadata.yaml README.md [0-9]*.md \
+          -o hackerspace-blueprint.epub \
+          --metadata date="$(date +%D)" \
+          --toc-depth=2 \
+          --epub-embed-font='epub-fonts/*.ttf' \
+          --css=epub.css
+    
+    - name: Generate PDF
+      run: |
+        pandoc --verbose \
+          pandoc-metadata.yaml README.md [0-9]*.md \
+          -o hackerspace-blueprint.pdf \
+          --metadata date="$(date +%D)" \
+          --template eisvogel.tex \
+          --include-before-body=include-cover.tex \
+          --include-after-body=include-back.tex
+    
+    - name: Generate Booklet
+      run: |
+        numpages=$(pdfinfo hackerspace-blueprint.pdf | awk '/^Pages/ { print $2}')
+        pdfbook hackerspace-blueprint.pdf 2-$(($numpages-2)) -o hackerspace-blueprint-booklet-body.pdf
+    
+    - name: Generate HTML for GitHub Pages
+      run: |
+        # Create HTML version for web viewing
+        pandoc --verbose \
+          pandoc-metadata.yaml README.md [0-9]*.md \
+          -o index.html \
+          --metadata date="$(date +%D)" \
+          --toc \
+          --toc-depth=2 \
+          --standalone \
+          --css=https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.min.css \
+          --metadata title="Hackerspace Blueprint"
+    
+    - name: Create download page
+      run: |
+        cat > download.html << 'EOF'
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Hackerspace Blueprint - Downloads</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.min.css">
+            <style>
+                body {
+                    box-sizing: border-box;
+                    min-width: 200px;
+                    max-width: 980px;
+                    margin: 0 auto;
+                    padding: 45px;
+                }
+                .download-section {
+                    margin: 2em 0;
+                }
+                .download-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    margin: 10px;
+                    background-color: #0366d6;
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 6px;
+                    font-weight: 600;
+                }
+                .download-button:hover {
+                    background-color: #0256c7;
+                }
+            </style>
+        </head>
+        <body class="markdown-body">
+            <h1>Hackerspace Blueprint</h1>
+            <p>Download the Hackerspace Blueprint in your preferred format:</p>
             
-      # 3. Build the documents
-      - name: Build Documents
-        run: |
-          mkdir _site
-          pandoc --verbose pandoc-metadata.yaml README.md [0-9]*.md \
-            -o _site/hackerspace-blueprint.epub \
-            --metadata date="$(date +'%Y-%m-%d')" \
-            --toc-depth=2 \
-            --epub-embed-font='epub-fonts/*.ttf' \
-            --css=epub.css
-          pandoc --verbose pandoc-metadata.yaml README.md [0-9]*.md \
-            -o _site/hackerspace-blueprint.pdf \
-            --metadata date="$(date +'%Y-%m-%d')" \
-            --template eisvogel.tex \
-            --include-before-body=include-cover.tex \
-            --include-after-body=include-back.tex \
-            --top-level-division=chapter
-          numpages=$(pdfinfo _site/hackerspace-blueprint.pdf | awk '/^Pages/ { print $2 }')
-          pdfbook _site/hackerspace-blueprint.pdf 2-$(($numpages-2)) -o _site/hackerspace-blueprint-booklet-body.pdf
-
-      # 4. Create the index.html landing page
-      - name: Create index.html
-        run: |
-          cat <<EOF > _site/index.html
-          <!DOCTYPE html>
-          <html lang="en">
-          <head>
-              <meta charset="UTF-8">
-              <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <title>Hackerspace Blueprint Downloads</title>
-              <style>
-                  body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
-                  h1 { color: #333; }
-                  ul { list-style: none; padding: 0; }
-                  li { margin-bottom: 15px; }
-                  a { text-decoration: none; color: #0366d6; font-size: 1.2em; }
-                  a:hover { text-decoration: underline; }
-                  small { color: #555; }
-              </style>
-          </head>
-          <body>
-              <h1>Hackerspace Blueprint</h1>
-              <p>Documents built on $(date -u +"%Y-%m-%d %H:%M:%S UTC").</p>
-              <ul>
-                  <li><a href="hackerspace-blueprint.pdf">Download PDF</a> <br><small>Standard PDF version.</small></li>
-                  <li><a href="hackerspace-blueprint.epub">Download EPUB</a> <br><small>For e-readers and mobile devices.</small></li>
-                  <li><a href="hackerspace-blueprint-booklet-body.pdf">Download PDF Booklet</a> <br><small>For printing and binding.</small></li>
-              </ul>
-          </body>
-          </html>
-          EOF
-
-      # 5. Upload the generated site as a Pages artifact
-      - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./_site
-
-      # 6. Deploy the artifact to GitHub Pages
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+            <div class="download-section">
+                <h2>Available Formats</h2>
+                <a href="hackerspace-blueprint.pdf" class="download-button">📄 Download PDF</a>
+                <a href="hackerspace-blueprint.epub" class="download-button">📚 Download EPUB</a>
+                <a href="hackerspace-blueprint-booklet-body.pdf" class="download-button">📖 Download Booklet PDF</a>
+            </div>
+            
+            <div class="download-section">
+                <h2>View Online</h2>
+                <a href="index.html" class="download-button">🌐 Read Online (HTML)</a>
+            </div>
+            
+            <p><small>Generated on $(date)</small></p>
+        </body>
+        </html>
+        EOF
+    
+    - name: Prepare GitHub Pages directory
+      run: |
+        mkdir -p _site
+        cp index.html _site/
+        cp download.html _site/
+        cp hackerspace-blueprint.pdf _site/
+        cp hackerspace-blueprint.epub _site/
+        cp hackerspace-blueprint-booklet-body.pdf _site/
+        # Copy CSS if you have custom styles
+        [ -f epub.css ] && cp epub.css _site/ || true
+    
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+      
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: '_site'
+    
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
