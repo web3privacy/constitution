@@ -47,10 +47,10 @@ jobs:
     - name: Generate PDF
       run: |
         pandoc --verbose \
-          pandoc-metadata.yaml README.md [0-9]*.md \
+          README.md [0-9]*.md \
           -o w3pn-constitution.pdf \
-          --metadata date="$(date +%D)"
-      #--template eisvogel.tex \
+          --metadata date="$(date +%D)" \
+          --template eisvogel.tex
       #--include-before-body=include-cover.tex \
       #--include-after-body=include-back.tex
     
