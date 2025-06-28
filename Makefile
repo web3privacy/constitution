@@ -7,4 +7,5 @@ all:
 			--template eisvogel \
 			--listings \
 			--lua-filter=newpage.lua \
-			--metadata date="$(shell date +%D)"
+			--metadata date="$(shell date +%D)" \
+			--metadata abstract=null
