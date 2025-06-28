@@ -22,12 +22,12 @@ The goal of this Constitution is to empower our community to get the best out of
 
 The core operating system of Web3Privacy Now is our unique model called **Intentional Do-ocracy**, detailed in Section 2. This framework empowers members by balancing freedom with a mindful process: from an initial **Dream**, through **Design** and **Action**, to a final **Reflection** on the outcome.
 
-For actions that are irreversible, commit significant community resources, or fundamentally alter our shared digital infrastructure, a **Formal Proposal** is required, as explained in Section 3. This process ensures major decisions have community consensus and support.
+For actions that are irreversible or commit significant resources, a **Formal Proposal** is required (Section 3). This is our safety mechanism: a consent-based process where members can raise formal objections.
 
-Two areas require special care: interpersonal conflict and the safeguarding of core assets. Section 4 introduces the **Stewards**. They have two key responsibilities: acting as impartial **'counselors'** to help resolve interpersonal conflict, and as **'guardians'** to safeguard our core community assets. Crucially, and unlike a traditional board, the Stewards have no power to dictate the mission or day-to-day activities of the organization.
+Two areas require special care: interpersonal conflict and the safeguarding of core assets. Section 4 introduces the **Stewards**, who act as impartial counselors and guardians. They hold the ultimate authority to veto a Formal Proposal if it violates our core principles, but otherwise have no power to direct the community.
 
-Section 5 explains how you become a contributing **Member** of our community.
+Section 5 clarifies who has a voice in our governance, distinguishing between passive **Supporters** and active **Members**, whose governance rights are earned through contribution.
 
-To ensure our collaboration is smooth and constructive, we have a set of **Guidelines** (Section 6). These are not rigid rules, but a shared understanding of effective and respectful behavior within our ecosystem.
+To ensure our collaboration is smooth and constructive, we have a set of **Guidelines** (Section 6). These are not rigid rules, but a shared cultural understanding of effective and respectful behavior.
 
-Finally, because the spirit of a rule is as important as its letter, we provide **The Legacy**. This is the collection of articles, discussions, and philosophies—including the Hackerspace Blueprint itself—that informed this Constitution. The Legacy serves as the "cipher" to interpret our principles and understand the rationale behind our structure.
+Finally, because the spirit of a rule is as important as its letter, we provide **The Legacy**. This is the collection of articles, discussions, and philosophies that informed this Constitution, serving as the "cipher" to interpret our principles.
