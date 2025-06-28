@@ -4,7 +4,7 @@ name: Build and Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 
 permissions:
@@ -68,7 +68,8 @@ jobs:
             --metadata date="$(date +'%Y-%m-%d')" \
             --template eisvogel.tex \
             --include-before-body=include-cover.tex \
-            --include-after-body=include-back.tex
+            --include-after-body=include-back.tex \
+            --top-level-division=chapter
           numpages=$(pdfinfo _site/hackerspace-blueprint.pdf | awk '/^Pages/ { print $2 }')
           pdfbook _site/hackerspace-blueprint.pdf 2-$(($numpages-2)) -o _site/hackerspace-blueprint-booklet-body.pdf
 

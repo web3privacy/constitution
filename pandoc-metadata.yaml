@@ -1,8 +1,4 @@
 ---
-#
-# Metadata for the Web3Privacy Now Constitution.
-#
-#
 title: "Web3Privacy Now Constitution"
 subtitle: "Empowering people to be awesome"
 author: [Web3Privacy Now Community]
@@ -21,11 +17,4 @@ toc-title: "Table of Contents"
 book: true
 footer-left: "Web3Privacy Now"
 links-as-notes: yes
-# This inline yaml metadata code block specifies custom headers and footers
-# using latex. Pandoc will probably be the only interpreter that does something useful with it.
-#   source: https://tex.stackexchange.com/questions/139139/adding-headers-and-footers-using-pandoc
-header-includes: |
-    \usepackage{sectsty}
-    \sectionfont{\clearpage}
-    \usepackage{pdfpages}
 ---
