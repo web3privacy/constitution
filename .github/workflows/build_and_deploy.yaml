@@ -49,8 +49,10 @@ jobs:
         pandoc --verbose \
           pandoc-metadata.yaml README.md [0-9]*.md \
           -o w3pn-constitution.pdf \
-          --metadata date="$(date +%D)" \
-          --template eisvogel.tex
+          --template eisvogel \
+          --listings \
+          --lua-filter=newpage.lua \
+          --metadata date="$(shell date +%D)"
       #--include-before-body=include-cover.tex \
       #--include-after-body=include-back.tex
     
