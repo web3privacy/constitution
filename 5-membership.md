@@ -40,4 +40,4 @@ With these rights come responsibilities:
 ## Losing Membership
 
 * **Dormancy:** Membership is not lost due to inactivity. Once a member, always a member. An inactive member simply does not participate in governance until they choose to become active again.
-* **Revocation:** In extreme cases of acting in bad faith, deliberately harming the community, or violating its core principles, a Member's status can be revoked. This is a last resort and requires a Formal Proposal to be passed with a **supermajority (≥2/3rds)** vote.
+* **Revocation:** In extreme cases of acting in bad faith, deliberately harming the community, or violating its core principles, a Member's status can be revoked. This is a last resort and requires a Formal Proposal to be passed with a **supermajority (>=2/3rds)** vote.

@@ -47,4 +47,4 @@ To maintain a true Do-ocracy, the limits of Steward power must be explicit.
 
 ## Accountability and Removal
 
-A Steward can be removed before their term is complete if they are acting in bad faith, are negligent in their duties, or are permanently unreachable. The removal of a Steward requires a Formal Proposal and must be approved by a **supermajority (≥2/3rds)** of votes cast.
+A Steward can be removed before their term is complete if they are acting in bad faith, are negligent in their duties, or are permanently unreachable. The removal of a Steward requires a Formal Proposal and must be approved by a **supermajority (>=2/3rds)** of votes cast.

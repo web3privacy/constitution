@@ -3,15 +3,6 @@ name: Build and Deploy to GitHub Pages
 on:
   push:
     branches: [ master ]
-    paths:
-      - '**.md'
-      - 'pandoc-metadata.yaml'
-      - 'epub-fonts/**'
-      - 'epub.css'
-      - 'eisvogel.tex'
-      - 'include-cover.tex'
-      - 'include-back.tex'
-      - '.github/workflows/build.yml'
   workflow_dispatch:
 
 permissions:
