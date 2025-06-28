@@ -22,17 +22,19 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       
-    - name: Install dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y \
-          pandoc \
-          texlive-plain-generic \
-          texlive-latex-extra \
-          texlive-fonts-recommended \
-          texlive-fonts-extra \
-          texlive-extra-utils \
+    # Cache APT packages
+    - name: Cache APT packages
+      uses: awalsh128/cache-apt-pkgs-action@latest
+      with:
+        packages: |
+          pandoc
+          texlive-plain-generic
+          texlive-latex-extra
+          texlive-fonts-recommended
+          texlive-fonts-extra
+          texlive-extra-utils
           poppler-utils
+        version: 1.0
     
     - name: Generate EPUB
       run: |
