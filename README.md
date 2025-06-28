@@ -1,3 +1,9 @@
+> **[ DRAFT VERSION — FOR REVIEW ONLY ]**
+>
+> This is a work-in-progress and does not yet represent the official, finalized constitution of Web3Privacy Now. Content and structures are subject to change. Please provide feedback and suggestions in the Issues or community channels.
+
+---
+
 # We are an Ecosystem for Impact
 
 Web3Privacy Now is the hub where education, connection, and innovation converge to advance digital privacy. We are a community-driven organization that translates complex research into engaging content, connects builders with collaborators, and provides a powerful network for aligned projects.
