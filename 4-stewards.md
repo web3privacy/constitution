@@ -21,7 +21,7 @@ This is the Stewards' second key function, which includes their role in the Form
 * **Veto Authority:** In the Formal Proposal process, Stewards act as the final check. Their role is not to decide if they *like* a proposal, but only to determine if it causes significant harm or directly violates the principles laid out in this Constitution. If they find that it does, they can uphold a Veto.
 * **Core Asset Management:** Stewards are the designated signatories and protectors of the community's core shared assets. This may include:
     * Multi-signature control of the main treasury.
-    * Ownership of primary domain names (e.g., web3privacy.now).
+    * Ownership of primary domain names (e.g., web3privacy.info).
     * Administrative access to primary social media accounts and the community GitHub organization.
 
 ## Powers and Limitations
