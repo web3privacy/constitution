@@ -3,14 +3,10 @@
 name: Build and Deploy to GitHub Pages
 
 on:
-  # Triggers the workflow on push events for the main branch
   push:
     branches: [ main ]
-    
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Set permissions for the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
@@ -20,44 +16,59 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      # 1. Check out your repository's code
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Install build dependencies
+      # 1. Cache APT packages
+      - name: Cache APT packages
+        id: cache-apt-packages
+        uses: actions/cache@v4
+        with:
+          # The path to cache includes the list of available packages and the downloaded debs
+          path: |
+            /var/cache/apt/archives
+            /var/lib/apt/lists
+          # The key is composed of the runner's OS and a hash of the workflow file.
+          # If you change the list of packages below, the hash will change, invalidating the cache.
+          key: ${{ runner.os }}-apt-cache-${{ hashFiles('.github/workflows/build.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-apt-cache-
+
+      # 2. Install dependencies (conditionally updating)
       - name: Install Build Dependencies
         run: |
-          sudo apt-get update
+          # Only run apt-get update if the cache was not restored
+          if [[ "${{ steps.cache-apt-packages.outputs.cache-hit }}" != "true" ]]; then
+            echo "Cache not found, running apt-get update..."
+            sudo apt-get update
+          else
+            echo "Cache restored successfully."
+          fi
+          # The install command always runs, but it will use cached debs if available.
           sudo apt-get install -y --no-install-recommends \
             pandoc \
             texlive-latex-extra \
             texlive-fonts-recommended \
+            texlive-fonts-extra \
             texlive-extra-utils \
             poppler-utils
-
+            
       # 3. Build the documents
       - name: Build Documents
         run: |
-          # Create a directory to store the final website files
           mkdir _site
-          
-          # Generate EPUB
           pandoc --verbose pandoc-metadata.yaml README.md [0-9]*.md \
             -o _site/hackerspace-blueprint.epub \
             --metadata date="$(date +'%Y-%m-%d')" \
             --toc-depth=2 \
             --epub-embed-font='epub-fonts/*.ttf' \
             --css=epub.css
-            
-          # Generate PDF
           pandoc --verbose pandoc-metadata.yaml README.md [0-9]*.md \
             -o _site/hackerspace-blueprint.pdf \
             --metadata date="$(date +'%Y-%m-%d')" \
             --template eisvogel.tex \
             --include-before-body=include-cover.tex \
             --include-after-body=include-back.tex
-
-          # Generate PDF Booklet
           numpages=$(pdfinfo _site/hackerspace-blueprint.pdf | awk '/^Pages/ { print $2 }')
           pdfbook _site/hackerspace-blueprint.pdf 2-$(($numpages-2)) -o _site/hackerspace-blueprint-booklet-body.pdf
 
