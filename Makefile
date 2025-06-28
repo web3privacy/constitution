@@ -8,4 +8,4 @@ all:
 			--listings \
 			--lua-filter=newpage.lua \
 			--metadata date="$(shell date +%D)" \
-			--metadata abstract=null
+			--metadata abstract=""

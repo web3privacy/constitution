@@ -52,8 +52,8 @@ jobs:
           --template eisvogel \
           --listings \
           --lua-filter=newpage.lua \
-          --metadata date="$(date +%D)"
-          --metadata abstract=null
+          --metadata date="$(date +%D)" \
+          --metadata abstract=""
       #--include-before-body=include-cover.tex \
       #--include-after-body=include-back.tex
     
