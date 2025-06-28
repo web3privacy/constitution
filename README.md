@@ -14,15 +14,15 @@ Our governance model is therefore built upon three fundamental acknowledgementsâ
 * **Consensus is not always possible.** Passionate people will have conflicting goals. We need a clear process for making decisions when full agreement cannot be reached.
 * **Inaction is the greatest risk.** An imperfect but clear process for solving problems is infinitely better than allowing them to fester unresolved.
 
-This philosophy stems from the principle of Do-ocracy: a system where authority and influence are earned through action and contribution, not granted by title. Our approach is heavily inspired by the "Hackerspace Blueprint," a document where the community at Hackerspace Gent masterfully applied these Do-ocratic principles after overcoming their own challenges. We have adapted their framework for our unique context: a global collective dedicated to education, connection, and action in the Web3 privacy space.
+This philosophy stems from the principle of Do-ocracy. Our approach is heavily inspired by the "Hackerspace Blueprint," a document where the community at Hackerspace Gent masterfully applied these principles. To make this system truly effective for a global, digitally-native collective, we have evolved their model into what we call **Intentional Do-ocracy**â€”our framework for turning ideas into effective action.
 
 The goal of this Constitution is to empower our community to get the best out of themselves. It is a system designed to stimulate collaboration and creative problem-solving. It is, by design, a work in progress. That is why this Constitution is hosted on GitHub, enabling our community to continuously refine it and for other organizations to learn from our journey.
 
 # 1. Overview
 
-The core operating system of Web3Privacy Now is **Do-ocracy**, detailed in Section 2. In short: if you want something to happen, you have the agency to start doing it yourself or to rally others to the cause. The goal of our Do-ocracy is to minimize friction and empower proactive contribution.
+The core operating system of Web3Privacy Now is our unique model called **Intentional Do-ocracy**, detailed in Section 2. This framework empowers members by balancing freedom with a mindful process: from an initial **Dream**, through **Design** and **Action**, to a final **Reflection** on the outcome.
 
-For actions that are irreversible, commit significant community resources, or fundamentally alter our shared digital infrastructure (like our brand or core platforms), a **Formal Proposal** is required, as explained in Section 3. This process ensures major decisions have community consensus and support.
+For actions that are irreversible, commit significant community resources, or fundamentally alter our shared digital infrastructure, a **Formal Proposal** is required, as explained in Section 3. This process ensures major decisions have community consensus and support.
 
 Two areas require special care: interpersonal conflict and the safeguarding of core assets. Section 4 introduces the **Stewards**. They have two key responsibilities: acting as impartial **'counselors'** to help resolve interpersonal conflict, and as **'guardians'** to safeguard our core community assets. Crucially, and unlike a traditional board, the Stewards have no power to dictate the mission or day-to-day activities of the organization.
 
