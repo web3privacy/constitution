@@ -1,6 +1,9 @@
-hackerspace-blueprint.epub
-hackerspace-blueprint.pdf
-hackerspace-blueprint-booklet-body.pdf
-hackerspace-blueprint*.html
+_site
+
+w3pn-constitution.epub
+w3pn-constitution.pdf
+w3pn-constitution-booklet-body.pdf
+w3pn-constitution*.html
+
 test*.pdf
 test*.tex

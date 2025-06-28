@@ -38,7 +38,7 @@ jobs:
       run: |
         pandoc --verbose \
           pandoc-metadata.yaml README.md [0-9]*.md \
-          -o hackerspace-blueprint.epub \
+          -o w3pn-constitution.epub \
           --metadata date="$(date +%D)" \
           --toc-depth=2 \
           --epub-embed-font='epub-fonts/*.ttf' \
@@ -48,16 +48,16 @@ jobs:
       run: |
         pandoc --verbose \
           pandoc-metadata.yaml README.md [0-9]*.md \
-          -o hackerspace-blueprint.pdf \
+          -o w3pn-constitution.pdf \
           --metadata date="$(date +%D)"
       #--template eisvogel.tex \
       #--include-before-body=include-cover.tex \
       #--include-after-body=include-back.tex
     
-    - name: Generate Booklet
-      run: |
-        numpages=$(pdfinfo hackerspace-blueprint.pdf | awk '/^Pages/ { print $2}')
-        pdfbook hackerspace-blueprint.pdf 2-$(($numpages-2)) -o hackerspace-blueprint-booklet-body.pdf
+    #- name: Generate Booklet
+    #  run: |
+    #    numpages=$(pdfinfo w3pn-constitution.pdf | awk '/^Pages/ { print $2}')
+    #    pdfbook w3pn-constitution.pdf 2-$(($numpages-2)) -o w3pn-constitution-booklet-body.pdf
     
     - name: Generate HTML for GitHub Pages
       run: |
@@ -70,7 +70,7 @@ jobs:
           --toc-depth=2 \
           --standalone \
           --css=https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.min.css \
-          --metadata title="Hackerspace Blueprint"
+          --metadata title="Web3Privacy Now Constitution"
     
     - name: Create download page
       run: |
@@ -114,9 +114,9 @@ jobs:
             
             <div class="download-section">
                 <h2>Available Formats</h2>
-                <a href="hackerspace-blueprint.pdf" class="download-button">📄 Download PDF</a>
-                <a href="hackerspace-blueprint.epub" class="download-button">📚 Download EPUB</a>
-                <a href="hackerspace-blueprint-booklet-body.pdf" class="download-button">📖 Download Booklet PDF</a>
+                <a href="w3pn-constitution.pdf" class="download-button">📄 Download PDF</a>
+                <a href="w3pn-constitution.epub" class="download-button">📚 Download EPUB</a>
+                <a href="w3pn-constitution-booklet-body.pdf" class="download-button">📖 Download Booklet PDF</a>
             </div>
             
             <div class="download-section">
@@ -134,9 +134,9 @@ jobs:
         mkdir -p _site
         cp index.html _site/
         cp download.html _site/
-        cp hackerspace-blueprint.pdf _site/
-        cp hackerspace-blueprint.epub _site/
-        cp hackerspace-blueprint-booklet-body.pdf _site/
+        cp w3pn-constitution.pdf _site/
+        cp w3pn-constitution.epub _site/
+        cp w3pn-constitution-booklet-body.pdf _site/
         # Copy CSS if you have custom styles
         [ -f epub.css ] && cp epub.css _site/ || true
     
