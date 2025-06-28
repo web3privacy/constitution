@@ -58,10 +58,10 @@ jobs:
         pandoc --verbose \
           pandoc-metadata.yaml README.md [0-9]*.md \
           -o hackerspace-blueprint.pdf \
-          --metadata date="$(date +%D)" \
-          --template eisvogel.tex \
-          --include-before-body=include-cover.tex \
-          --include-after-body=include-back.tex
+          --metadata date="$(date +%D)"
+      #--template eisvogel.tex \
+      #--include-before-body=include-cover.tex \
+      #--include-after-body=include-back.tex
     
     - name: Generate Booklet
       run: |
