@@ -24,7 +24,7 @@ The core operating system of Web3Privacy Now is **Do-ocracy**, detailed in Secti
 
 For actions that are irreversible, commit significant community resources, or fundamentally alter our shared digital infrastructure (like our brand or core platforms), a **Formal Proposal** is required, as explained in Section 3. This process ensures major decisions have community consensus and support.
 
-Two areas require special care: interpersonal conflict and the safeguarding of core assets. Section 4 introduces the **Mediators**. They have two key responsibilities: acting as impartial **'counselors'** to help resolve interpersonal conflict, and as **'guardians'** to safeguard our core community assets. Crucially, and unlike a traditional board, the Mediators have no power to dictate the mission or day-to-day activities of the organization.
+Two areas require special care: interpersonal conflict and the safeguarding of core assets. Section 4 introduces the **Stewards**. They have two key responsibilities: acting as impartial **'counselors'** to help resolve interpersonal conflict, and as **'guardians'** to safeguard our core community assets. Crucially, and unlike a traditional board, the Stewards have no power to dictate the mission or day-to-day activities of the organization.
 
 Section 5 explains how you become a contributing **Member** of our community.
 
