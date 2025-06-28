@@ -136,7 +136,7 @@ jobs:
         cp download.html _site/
         cp w3pn-constitution.pdf _site/
         cp w3pn-constitution.epub _site/
-        cp w3pn-constitution-booklet-body.pdf _site/
+        # == cp w3pn-constitution-booklet-body.pdf _site/
         # Copy CSS if you have custom styles
         [ -f epub.css ] && cp epub.css _site/ || true
     
