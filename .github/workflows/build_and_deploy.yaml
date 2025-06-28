@@ -1,0 +1,105 @@
+# .github/workflows/build.yml
+
+name: Build and Deploy to GitHub Pages
+
+on:
+  # Triggers the workflow on push events for the main branch
+  push:
+    branches: [ main ]
+    
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Set permissions for the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Check out your repository's code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Install build dependencies
+      - name: Install Build Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            pandoc \
+            texlive-latex-extra \
+            texlive-fonts-recommended \
+            texlive-extra-utils \
+            poppler-utils
+
+      # 3. Build the documents
+      - name: Build Documents
+        run: |
+          # Create a directory to store the final website files
+          mkdir _site
+          
+          # Generate EPUB
+          pandoc --verbose pandoc-metadata.yaml README.md [0-9]*.md \
+            -o _site/hackerspace-blueprint.epub \
+            --metadata date="$(date +'%Y-%m-%d')" \
+            --toc-depth=2 \
+            --epub-embed-font='epub-fonts/*.ttf' \
+            --css=epub.css
+            
+          # Generate PDF
+          pandoc --verbose pandoc-metadata.yaml README.md [0-9]*.md \
+            -o _site/hackerspace-blueprint.pdf \
+            --metadata date="$(date +'%Y-%m-%d')" \
+            --template eisvogel.tex \
+            --include-before-body=include-cover.tex \
+            --include-after-body=include-back.tex
+
+          # Generate PDF Booklet
+          numpages=$(pdfinfo _site/hackerspace-blueprint.pdf | awk '/^Pages/ { print $2 }')
+          pdfbook _site/hackerspace-blueprint.pdf 2-$(($numpages-2)) -o _site/hackerspace-blueprint-booklet-body.pdf
+
+      # 4. Create the index.html landing page
+      - name: Create index.html
+        run: |
+          cat <<EOF > _site/index.html
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Hackerspace Blueprint Downloads</title>
+              <style>
+                  body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
+                  h1 { color: #333; }
+                  ul { list-style: none; padding: 0; }
+                  li { margin-bottom: 15px; }
+                  a { text-decoration: none; color: #0366d6; font-size: 1.2em; }
+                  a:hover { text-decoration: underline; }
+                  small { color: #555; }
+              </style>
+          </head>
+          <body>
+              <h1>Hackerspace Blueprint</h1>
+              <p>Documents built on $(date -u +"%Y-%m-%d %H:%M:%S UTC").</p>
+              <ul>
+                  <li><a href="hackerspace-blueprint.pdf">Download PDF</a> <br><small>Standard PDF version.</small></li>
+                  <li><a href="hackerspace-blueprint.epub">Download EPUB</a> <br><small>For e-readers and mobile devices.</small></li>
+                  <li><a href="hackerspace-blueprint-booklet-body.pdf">Download PDF Booklet</a> <br><small>For printing and binding.</small></li>
+              </ul>
+          </body>
+          </html>
+          EOF
+
+      # 5. Upload the generated site as a Pages artifact
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+      # 6. Deploy the artifact to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
