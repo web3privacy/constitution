@@ -51,9 +51,9 @@ A healthy Do-ocracy emerges when the environment is right. We foster this enviro
 
 It is a misconception that in a Do-ocracy, nobody is in charge. The people doing the work have authority over their specific projects. However, this power is noncoercive and temporary—it is lost when they stop contributing to that effort.
 
-> A do-ocratic example: W3PN has no formal event series. Alex posts in the community Discord, "What if we organized a 'State of Privacy' online summit?" (Dream). Others respond with ideas, and Alex drafts a plan and coordinates volunteers in a new channel (Design & Decide). They then run the event (Act).
+> A do-ocratic example: W3PN has no formal event series. Alex posts in the community Discord, "What if we organized a 'State of Privacy' online summit?" (Dream). Others respond with ideas. Because this is too big for one person, Alex's role shifts from "doer" to "project lead." Alex's responsibility is now to coordinate, not to do everything themself. They draft a plan, outline needed roles (e.g., "Speaker Outreach," "Technical Support," "Marketing"), and invite volunteers in a new channel (Design & Decide). The team then runs the event (Act).
 >
-> A new member might ask, "Why does Alex get to decide the summit's platform? Who put them in charge?" The answer is: **the Intentional Do-ocracy put them in charge.** The very act of initiating and organizing the summit grants Alex authority over it. They become the steward of that idea's entire lifecycle. If they later post a summary of what went well and what could be improved, they complete the cycle (Reflect). If Alex stops organizing mid-project, they lose that authority, and anyone else can step in to take the lead.
+> A new member might ask, “Why does Alex get to decide the summit’s platform? Who put them in charge?” The answer is: **the Intentional Do-ocracy put them in charge.** The very act of initiating and organizing the summit grants Alex authority and *responsibility* over it. They become the steward of that idea’s entire lifecycle, which includes ensuring the team works smoothly. If they later post a summary of what went well, they complete the cycle (Reflect).
 
 ## Limitations
 
