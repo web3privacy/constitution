@@ -2,6 +2,8 @@
 
 ## Our Framework for Effective Action
 
+> DREAM -> DESIGN -> DECIDE -> ACT -> REFLECT -> (and back to DREAM)
+
 Our model of Do-ocracy is built on a five-stage process that empowers effective, well-considered action. It's about owning an idea from start to finish.
 
 *   **Dream:** You are empowered to make things happen. If you have an idea, you have the agency to take the initiative.

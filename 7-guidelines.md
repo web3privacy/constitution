@@ -1,4 +1,4 @@
-# 6. Guidelines
+# 7. Guidelines
 
 This Constitution provides the structure for our organization, but our culture is built on the actions we take every day. These guidelines are not strict laws, but a shared understanding of how we can work together effectively and respectfully. They are the spirit that animates the letter of our rules.
 
@@ -14,6 +14,7 @@ This Constitution provides the structure for our organization, but our culture i
 * **Give Credit Generously:** If you build on someone's idea or use their work, give them public credit. Recognition is the primary currency in our ecosystem.
 * **Amplify Others:** Our collective success depends on mutual support. When you see a fellow member doing great work, share it, promote it, and celebrate it.
 * **Ask for Help, Offer Help:** No one is expected to know everything. Asking for help is a sign of strength. Offering help when you can builds the connective tissue of our community.
+* **Cultivate Wholeness:** We encourage members to bring their whole selves to this work—their passion, their creativity, and their intuition. We strive to create an environment of psychological safety where authentic connection and vulnerability are valued alongside technical contribution.
 
 ## Disagreement & Conflict
 

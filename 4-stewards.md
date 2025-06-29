@@ -1,5 +1,7 @@
 # 4. The Stewards
 
+> They hold the space, so the community can fill it.
+
 Stewards are the guardians of this Constitution and the overall health of the Web3Privacy Now community. They are servant-leaders, chosen for their wisdom, temperament, and dedication to our core principles.
 
 **This is not a traditional board of directors.** Stewards do not set strategy, dictate projects, or manage day-to-day activities. Their role is purely to fulfill two specific, critical functions: to act as impartial counselors in disputes and as guardians of our foundational principles and assets. They hold the space, so the community can fill it.

@@ -1,4 +1,11 @@
-# 7. Retroactive Contributor Rewards
+# 6. Retroactive Contributor Rewards
+
+> **TL;DR: How Rewards Work**
+>
+> 1.  Once per quarter, we reward past work from a dedicated fund.
+> 2.  Every Member gives points to peers they feel created value.
+> 3.  Points from members who are *also* highly valued are worth more.
+> 4.  The fund is split based on these final, reputation-weighted scores.
 
 ## Philosophy: Rewarding Past Contributions
 

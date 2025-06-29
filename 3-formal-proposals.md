@@ -16,6 +16,8 @@ You should initiate a Formal Proposal for actions that involve:
 
 ## The "Lazy Consensus" Process
 
+> Silence equals consent.
+
 1.  **Discussion Phase:** The initiator socializes the idea in community channels, gathers feedback, and refines their plan. This aligns with the "Design" stage of Intentional Do-ocracy.
 
 2.  **Formal Proposal:** The initiator posts a clear proposal in a designated forum or channel. The proposal states: "I propose [ACTION], because of [REASON]. If there are no formal objections within 72 hours, this proposal will be considered approved."
