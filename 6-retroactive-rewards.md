@@ -11,7 +11,7 @@
 
 To sustain our community, we must support our active contributors. This section outlines a process for retroactively rewarding **Members** for the valuable work they have already completed.
 
-This system is not for funding future projects. Its sole purpose is to reward the valuable contributions of individuals, trusting them to continue creating impact. It acknowledges that while all Members are valued, the level of active contribution varies over time.
+This system is not for funding future projects. Its sole purpose is to reward the valuable contributions of individuals, trusting them to continue creating impact. It acknowledges that while all Members are valued, the level of active contribution varies over time. A Member's influence in the allocation process is therefore directly tied to their recognized contributions within that Epoch.
 
 ## The Process: Peer-Based, Reputation-Weighted Allocation
 
@@ -91,9 +91,14 @@ We use the Raw Scores as weights for each allocation.
 
 This result correctly rewards Bob the most, as his contributions were recognized by the most highly-valued member (Alice).
 
+> **Why David’s allocation had no impact:**
+>
+> Notice that while David allocated 100 points to Alice, her Final Score received 0 points from him. This is a core feature of the system. Because David was inactive and received 0 points himself, his "Allocator's Raw Score" was 0. The calculation (`100 * 0`) correctly gave his allocation zero weight. This demonstrates how the system automatically and transparently amplifies the signal from active, recognized contributors.
+
 ## Why This Weighted Model is Essential
 
-* **Resists Popularity Contests:** It dramatically reduces the impact of low-context members voting for their friends.
-* **Amplifies Signal:** It entrusts the members who are "in the trenches" and have the most context to have a greater say in who gets rewarded.
-* **Rewards True Contribution:** It creates a virtuous cycle where being recognized as a valuable contributor also gives you a stronger voice in recognizing others.
-* **Maintains Openness:** It achieves this without creating a separate, exclusive class of "super-voters." Every Member still participates, but influence is earned through contribution, aligning perfectly with Do-ocracy.
+* **Amplifies Signal, Reduces Noise:** It gives more weight to the opinions of members who are "in the trenches" and have the most context. This effectively resists low-context "popularity contest" voting from less engaged members.
+
+* **Ensures Influence is Earned, Not Held:** Power in this system is not static. It must be re-earned each Epoch through recognized work, creating a dynamic where influence directly follows recent, valuable contribution.
+
+* **Creates a Virtuous Cycle of Merit:** Being recognized as a valuable contributor gives you a stronger voice in recognizing others. This reinforces and rewards expertise without creating a separate, exclusive class of "super-voters."
