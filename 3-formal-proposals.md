@@ -26,6 +26,14 @@ You should initiate a Formal Proposal for actions that involve:
   * **If there are no objections:** The proposal automatically passes. **Silence equals consent.** The initiator is empowered to Act.
   * **If there is an objection:** The process moves to the next stage.
 
+## The Steward Flag: Forcing Extended Consideration
+
+For proposals that are particularly complex, contentious, or submitted at a time that may limit community review (e.g., during a major holiday), a Steward may force an extended review period. This is not a veto, but a procedural tool to ensure sufficient time for community consideration.
+
+1. **How to Invoke**: During the initial 72-hour review period, any single Steward may post a formal declaration in the proposal thread, such as: "Steward Flag: This proposal warrants a longer discussion. The review period is hereby extended to 7 days."
+2. **The Effect**: The review period is immediately reset and extended to a total of 7 days from the time the flag was raised. The original 72-hour clock becomes void.
+3. **Limitation**: A flag can only be used once per proposal. Its purpose is to extend time for discussion, not to indefinitely block a proposal. After the extended period, the proposal proceeds as normal.
+
 ## The Objection and Veto Path
 
 An objection is not a "downvote." It is a formal declaration that you believe the proposal will cause significant harm to the organization or contradict its core principles.

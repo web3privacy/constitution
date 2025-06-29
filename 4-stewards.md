@@ -31,6 +31,7 @@ To maintain a true Do-ocracy, the limits of Steward power must be explicit.
 #### Stewards have the power to:
 
 * Mediate escalated interpersonal disputes.
+* Invoke a "Steward Flag" on a Formal Proposal to unilaterally extend its review period.
 * Uphold or overrule a Veto on a Formal Proposal.
 * Execute transactions and manage administrative access for core assets, *only when instructed by a passed Formal Proposal*.
 * Operate the Contributor Rewards system, executing the calculation and distribution as defined in Section 6.
