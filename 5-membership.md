@@ -4,23 +4,30 @@ Being part of the Web3Privacy Now ecosystem can take many forms. We value all ty
 
 ## Supporters
 
-A Supporter is anyone who aids our mission, often through financial contributions (like recurring fees), spreading the word, or participating in public events.
+A Supporter is anyone who aids our mission, often through financial contributions, spreading the word, or participating in public events.
 
 * **Role:** Supporters are the lifeblood of our sustainability and our link to the wider public. Their belief in our mission provides the fuel for our work.
-* **Privileges:** Supporters are valued parts of our extended community. They typically get access to exclusive content, newsletters, community updates, and a designated role in our communication channels.
-* **Governance:** Supporters do not hold formal governance rights or responsibilities. They cannot create Formal Proposals or participate in the veto process.
+* **Privileges:** Supporters are valued parts of our extended community. They typically get access to exclusive content, newsletters, and a designated role in our communication channels.
+* **Governance:** Supporters do not hold formal governance rights or responsibilities.
 
 ## Members: The Core Contributors
 
-Membership is not a status that can be bought; it is a recognition of sustained, meaningful contribution to the Web3Privacy Now mission. Members are the active drivers of our Intentional Do-ocracy and the stewards of our culture.
+Membership is not a status that can be bought; it is a recognition of sustained, meaningful contribution. Members are the active drivers of our Intentional Do-ocracy, and only Members can participate in our governance and contributor rewards systems.
 
 #### How to Become a Member
 
-The path to becoming a Member is through contribution. A Supporter or new contributor is eligible for Membership after they have demonstrated their commitment and understanding of our ethos.
+The path to becoming a Member is a transparent process based on recognized contribution.
 
-1. **Demonstrate Contribution:** The primary criterion is having successfully led or made a significant contribution to at least one initiative within the **Intentional Do-ocracy** framework (from Dream to Reflection).
-2. **Be Vouched For:** An existing Member must vouch for the candidate, confirming their positive contributions and cultural alignment.
-3. **Formal Recognition:** The candidate is then presented to the Stewards, who provide a simple, formal confirmation to finalize the Membership status. This is a light-touch check, not a heavy approval process.
+1. **Demonstrable Contribution:** The candidate must have a clear public track record of contributing to the W3PN mission. This is the most important requirement. Examples include, but are not limited to:
+    *  Successfully leading an initiative through the full **Intentional Do-ocracy** cycle (Dream → Reflect).
+    *  Making consistent, high-quality contributions to others' projects (e.g., code, design, research).
+    *  Actively and constructively participating in community discussions over an extended period.
+
+2. **Public Nomination:** An existing Member must formally nominate the candidate in a designated public channel. The nomination must include a summary of the candidate's contributions, linking to specific examples of their work.
+
+3. **Community Consent:** The nomination is open for a **72-hour review period**, following the "Lazy Consensus" model (see Section 3). If no formal objections are raised by other Members, the nomination is considered approved by the community. An objection should be based on a belief that the candidate has not met the contribution criteria or does not align with the community's Guidelines.
+
+4. **Steward Confirmation:** After the review period passes without objection, the Stewards perform the final administrative act of confirming the new status and updating any necessary roles or permissions.
 
 #### Rights of a Member
 
@@ -30,6 +37,7 @@ Once recognized, a Member has the full governance rights outlined in this Consti
 * Create a Formal Proposal.
 * Formally object to a proposal during the review period.
 * Participate in the election of Stewards.
+* Participate in the Retroactive Contributor Rewards system (both allocating and receiving points).
 
 #### Responsibilities of a Member
 
