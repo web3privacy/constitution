@@ -16,27 +16,29 @@ When a significant interpersonal conflict arises that cannot be resolved directl
 * **Confidentiality:** Stewards are expected to handle all such matters with the utmost discretion and confidentiality.
 
 #### As Guardians: Principle & Asset Protection
-This is the Stewards' second key function, which includes their role in the Formal Proposal process.
+This is the Stewards' second key function, which includes their role in Formal Proposals and Contributor Rewards.
 
 * **Veto Authority:** In the Formal Proposal process, Stewards act as the final check. Their role is not to decide if they *like* a proposal, but only to determine if it causes significant harm or directly violates the principles laid out in this Constitution. If they find that it does, they can uphold a Veto.
-* **Core Asset Management:** Stewards are the designated signatories and protectors of the community's core shared assets. This may include:
-    * Multi-signature control of the main treasury.
-    * Ownership of primary domain names (e.g., web3privacy.info).
-    * Administrative access to primary social media accounts and the community GitHub organization.
+* **Core Asset Management:** Stewards are the designated signatories and protectors of the community's core shared assets, such as the treasury, domains, and primary social media accounts.
+* **Contributor Rewards Operation:** Stewards are the trusted, neutral operators of the Retroactive Contributor Rewards system (Section 6). This involves initiating each Funding Epoch, executing the reputation-weighted calculation transparently, and ensuring the final rewards are distributed correctly.
 
 ## Powers and Limitations
 
 To maintain a true Do-ocracy, the limits of Steward power must be explicit.
 
 #### Stewards have the power to:
+
 * Mediate escalated interpersonal disputes.
-* Uphold or overrule a Veto on a Formal Proposal, based on the principles of this Constitution.
+* Uphold or overrule a Veto on a Formal Proposal.
 * Execute transactions and manage administrative access for core assets, *only when instructed by a passed Formal Proposal*.
+* Operate the Contributor Rewards system, executing the calculation and distribution as defined in Section 6.
 
 #### Stewards DO NOT have the power to:
+
 * Dictate the mission or strategic direction of Web3Privacy Now.
 * Initiate or shut down projects started under Intentional Do-ocracy.
-* Spend treasury funds or alter core assets without the explicit approval of a Formal Proposal.
+* Spend treasury funds without the explicit approval of a Formal Proposal (outside of Contributor Rewards distribution).
+* Influence the outcome of the Contributor Rewards calculation or allocate points within that system.
 * Unilaterally remove a member (this would require its own Formal Proposal under extreme circumstances).
 
 ## Composition, Election, and Term
