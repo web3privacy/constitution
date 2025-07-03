@@ -2,7 +2,7 @@ all:
 	docker run --rm \
 		--volume "$(shell pwd):/data" \
 		--user $(shell id -u):$(shell id -g) \
-		pandoc/extra:latest-ubuntu pandoc-metadata.yaml README.md [0-9]*.md \
+		pandoc/extra:latest-ubuntu pandoc-metadata.yaml [0-9]*.md \
 			-o w3pn-constitution.pdf \
 			--template eisvogel \
 			--listings \
