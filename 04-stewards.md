@@ -22,7 +22,7 @@ This is the Stewards' second key function, which includes their role in Formal P
 
 * **Veto Authority:** In the Formal Proposal process, Stewards act as the final check. Their role is not to decide if they *like* a proposal, but only to determine if it causes significant harm or directly violates the principles laid out in this Constitution. If they find that it does, they can uphold a Veto.
 * **Core Asset Management:** Stewards are the designated signatories and protectors of the community's core shared assets, such as the treasury, domains, and primary social media accounts.
-* **Contributor Rewards Operation:** Stewards are the trusted, neutral operators of the Retroactive Contributor Rewards system (Section 6). This involves initiating each Funding Epoch, executing the reputation-weighted calculation transparently, and ensuring the final rewards are distributed correctly.
+* **Contributor Rewards Operation:** Stewards are the trusted, neutral operators of the Retroactive Contributor Rewards system (Section 7). This involves initiating each Funding Epoch, executing the reputation-weighted calculation transparently, and ensuring the final rewards are distributed correctly.
 
 ## Powers and Limitations
 
