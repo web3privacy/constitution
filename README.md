@@ -10,12 +10,13 @@ It is designed to be a resilient foundation that empowers our community, stimula
 
 ## Reading the Constitution
 
-We provide compiled PDF and ePub versions for an optimal, consolidated reading experience.
+We provide multiple formats for an optimal and accessible reading experience. The live web version is always the most up-to-date.
 
-| Format | Link |
-| :--- | :--- |
-| 📄 **PDF** | **[Download](https://web3privacy.github.io/constitution/w3pn-constitution.pdf)** |
-| 📖 **ePub**| **[Download](https://web3privacy.github.io/constitution/w3pn-constitution.epub)** |
+| Format | Link | Description |
+| :--- | :--- | :--- |
+| 🌐 **Web** | **[Read Online](https://web3privacy.github.io/constitution/)** | Live, searchable, and always up-to-date. |
+| 📄 **PDF** | **[Download](https://web3privacy.github.io/constitution/w3pn-constitution.pdf)** | Best for printing and offline reading. |
+| 📖 **ePub**| **[Download](https://web3privacy.github.io/constitution/w3pn-constitution.epub)** | Best for mobile and e-reader devices. |
 
 ## Document Structure & Source Files
 
@@ -53,4 +54,3 @@ This is a living document, and we welcome community input. Because this text is 
 ## License
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). We encourage other organizations to learn from, adapt, and build upon our journey.
-
