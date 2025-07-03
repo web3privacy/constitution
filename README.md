@@ -55,5 +55,5 @@ This is a living document, and we welcome community input. Because this text is 
 
 ### License
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http.creativecommons.org/licenses/by-sa/4.0/). We encourage other organizations to learn from, adapt, and build upon our journey.
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). We encourage other organizations to learn from, adapt, and build upon our journey.
 
