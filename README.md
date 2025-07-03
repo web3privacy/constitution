@@ -28,12 +28,12 @@ The constitution is versioned as a collection of Markdown files, with each file 
 | 1. Overview | [01-overview.md](./01-overview.md) |
 | 2. Intentional Do-ocracy | [02-intentional-do-ocracy.md](./02-intentional-do-ocracy.md) |
 | 3. Formal Proposals & The Veto Process | [03-formal-proposals.md](./03-formal-proposals.md) |
-| 4. The Stewards | [04-the-stewards.md](./04-the-stewards.md) |
+| 4. The Stewards | [04-stewards.md](./04-stewards.md) |
 | 5. Membership | [05-membership.md](./05-membership.md) |
 | 6. Recognized Ecosystem Projects | [06-ecosystem-projects.md](./06-ecosystem-projects.md) |
 | 7. Retroactive Contributor Rewards | [07-contributor-rewards.md](./07-contributor-rewards.md) |
 | 8. Guidelines | [08-guidelines.md](./08-guidelines.md) |
-| 9. The Legacy | [09-the-legacy.md](./09-the-legacy.md) |
+| 9. The Legacy | [09-legacy.md](./09-legacy.md) |
 | 10. Changelog | [10-changelog.md](./10-changelog.md) |
 
 <br>
