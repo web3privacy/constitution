@@ -8,7 +8,7 @@ It is designed to be a resilient foundation that empowers our community, stimula
 >
 > This is a work-in-progress and does not yet represent the official, finalized constitution. Content and structures are subject to change.
 
-### Reading the Constitution
+## Reading the Constitution
 
 We provide compiled PDF and ePub versions for an optimal, consolidated reading experience.
 
@@ -17,9 +17,7 @@ We provide compiled PDF and ePub versions for an optimal, consolidated reading e
 | 📄 **PDF** | **[Download](https://web3privacy.github.io/constitution/w3pn-constitution.pdf)** |
 | 📖 **ePub**| **[Download](https://web3privacy.github.io/constitution/w3pn-constitution.epub)** |
 
-<br>
-
-### Document Structure & Source Files
+## Document Structure & Source Files
 
 The constitution is versioned as a collection of Markdown files, with each file representing a section. This allows for focused discussion and targeted changes.
 
@@ -36,9 +34,8 @@ The constitution is versioned as a collection of Markdown files, with each file 
 | 9. The Legacy | [09-legacy.md](./09-legacy.md) |
 | 10. Changelog | [10-changelog.md](./10-changelog.md) |
 
-<br>
 
-### How to Contribute
+## How to Contribute
 
 This is a living document, and we welcome community input. Because this text is our foundational agreement, changes must follow a structured and transparent process.
 
@@ -53,7 +50,7 @@ This is a living document, and we welcome community input. Because this text is 
 
 ---
 
-### License
+## License
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). We encourage other organizations to learn from, adapt, and build upon our journey.
 
