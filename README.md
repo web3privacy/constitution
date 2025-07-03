@@ -1,6 +1,6 @@
 # Web3Privacy Now Constitution
 
-This repository is the canonical source for the Web3Privacy Now Constitution. This document defines our governance, our principles, and our shared commitment to building a future where privacy is a default, not a feature.
+This repository is the canonical source for the *Web3Privacy Now Constitution*. This document defines our governance, our principles, and our shared commitment to building a future where privacy is a default, not a feature.
 
 It is designed to be a resilient foundation that empowers our community, stimulates collaboration, and provides a clear path for turning ambitious ideas into meaningful impact.
 
@@ -40,14 +40,11 @@ The constitution is versioned as a collection of Markdown files, with each file 
 
 This is a living document, and we welcome community input. Because this text is our foundational agreement, changes must follow a structured and transparent process.
 
-1.  **Start a Discussion**
-    Before making any changes, please begin a discussion on our **[dedicated community forum](link-to-forum)**. This is the place to socialize your idea, gather initial feedback, and ensure it aligns with the community's goals.
+1. **Start a Discussion**: Before making any changes, please begin a discussion on our **[dedicated community forum](link-to-forum)**. This is the place to socialize your idea, gather initial feedback, and ensure it aligns with the community's goals.
 
-2.  **Open a Pull Request**
-    Once the idea is well-defined, open a **Pull Request (PR)** in this repository. The PR must contain the specific, line-by-line changes to the relevant `.md` file(s). This PR serves as the clear technical specification for your proposed amendment.
+2. **Open a Pull Request**: Once the idea is well-defined, open a **[Pull Request (PR)](https://github.com/web3privacy/constitution/pulls)** in this repository. The PR must contain the specific, line-by-line changes to the relevant `.md` file(s). This PR serves as the clear technical specification for your proposed amendment.
 
-3.  **Make a Formal Proposal**
-    With the forum discussion and the Pull Request ready, create a **Formal Proposal** following the process in Section 3 of the Constitution. Your proposal **must** link to both the forum discussion (for context) and the Pull Request (for the specific changes). The PR will only be merged once the Formal Proposal has been successfully passed by the community.
+3. **Make a Formal Proposal**: With the forum discussion and the Pull Request ready, create a **Formal Proposal** following the process in Section 3 of the Constitution. Your proposal **must** link to both the forum discussion (for context) and the Pull Request (for the specific changes). The PR will only be merged once the Formal Proposal has been successfully passed by the community.
 
 ---
 
