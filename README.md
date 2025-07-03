@@ -36,8 +36,10 @@ Two areas require special care: interpersonal conflict and the safeguarding of c
 
 Section 5 clarifies who has a voice in our governance, distinguishing between passive **Supporters** and active **Members**, whose governance rights are earned through contribution.
 
-To sustain our active contributors, Section 6 outlines our system of **Contributor Rewards**. This peer-based, reputation-weighted process is how we retroactively thank Members for their valuable work.
+To formally support the initiatives that emerge from our community, Section 6 introduces **Recognized Ecosystem Projects**, defining a clear path for them to gain official endorsement and access shared resources.
 
-To ensure all these interactions are smooth and constructive, we have a set of **Guidelines** (Section 7). These are not rigid rules, but a shared cultural understanding of effective and respectful behavior.
+To sustain our active contributors, Section 7 outlines our system of **Contributor Rewards**. This peer-based, reputation-weighted process is how we retroactively thank Members for their valuable work.
 
-Finally, because the spirit of a rule is as important as its letter, we provide **The Legacy** (Section 8). This is the collection of articles, discussions, and philosophies that informed this Constitution, serving as the "cipher" to interpret our principles.
+To ensure all these interactions are smooth and constructive, we have a set of **Guidelines** (Section 8). These are not rigid rules, but a shared cultural understanding of effective and respectful behavior.
+
+Finally, because the spirit of a rule is as important as its letter, we provide **The Legacy** (Section 9). This is the collection of articles, discussions, and philosophies that informed this Constitution, serving as the "cipher" to interpret our principles.

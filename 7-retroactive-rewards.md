@@ -1,4 +1,4 @@
-# 6. Retroactive Contributor Rewards
+# 7. Retroactive Contributor Rewards
 
 > **TL;DR: How Rewards Work**
 >

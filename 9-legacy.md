@@ -1,4 +1,4 @@
-# 8. The Legacy
+# 9. The Legacy
 
 This constitution did not arise in a vacuum. It stands on the shoulders of giants and is informed by the successes and failures of countless decentralized communities. This section serves as a collection of the core ideas and sources that shaped our thinking. It should be used as a "cipher" to better understand the principles behind our rules.
 

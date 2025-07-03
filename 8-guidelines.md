@@ -1,4 +1,4 @@
-# 7. Guidelines
+# 8. Guidelines
 
 This Constitution provides the structure for our organization, but our culture is built on the actions we take every day. These guidelines are not strict laws, but a shared understanding of how we can work together effectively and respectfully. They are the spirit that animates the letter of our rules.
 
