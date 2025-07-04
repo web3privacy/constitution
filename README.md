@@ -6,7 +6,10 @@ It is designed to be a resilient foundation that empowers our community, stimula
 
 > **DOCUMENT STATUS: DRAFT**
 >
-> This is a work-in-progress and does not yet represent the official, finalized constitution. Content and structures are subject to change.
+> This is a work-in-progress and does not yet represent the official, finalized constitution. We are actively seeking community feedback to shape this document.
+>
+> A **Constitution Working Group** has been created for open discussion. We invite all community members to join and share their thoughts.
+> **[Join the Working Group on Signal](https://signal.group/#CjQKIFnk-nK9T0K3g2zZD-_1Dfr-mz5FYFsOIBlBm5IK80kuEhBNFV3g7NE_v9lFzG2jtroH)**
 
 ## Reading the Constitution
 
