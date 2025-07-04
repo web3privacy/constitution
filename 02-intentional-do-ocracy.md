@@ -10,7 +10,7 @@ Our model of Do-ocracy is built on a five-stage process that empowers effective,
 *   **Design:** Before you act, take time to think through the execution. For small tasks, this might take seconds. For larger projects, it might involve a sketch, a brief plan, or a chat with others.
 *   **Decide:** Commit to a course of action. For most things, this is a personal decision. For major initiatives, this might involve a Formal Proposal (see Section 3) to ensure alignment.
 *   **Act:** Do the thing! This is where the plan turns into reality.
-*   **Reflect:** Share your work. Announce what you did, why you did it, and what the outcome was. This builds trust, shares knowledge, and helps us all learn from both successes and failures. If a member raises a concern, engage with them to find a resolution.
+*   **Reflect:** Share your work. Announce what you did, why you did it, and what the outcome was. This act of public reflection is our primary tool for accountability. It prevents the hoarding of knowledge, makes decision-making transparent, and transforms individual action into trusted, collective wisdom. This builds trust, shares knowledge, and helps us all learn from both successes and failures. If a member raises a concern, engage with them to find a resolution.
 
 This is the core of **Intentional Do-ocracy**: a structure where individuals are empowered to lead projects from idea to completion, and where the act of leading the work is its own justification.
 

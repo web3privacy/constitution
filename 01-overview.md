@@ -12,19 +12,19 @@ We exist to build a flywheel of progress. By fostering a transparent and collabo
 
 ## A Resilient Foundation
 
-A core belief of Web3Privacy Now is that structure does not have to be an enemy of freedom. We recognize that for a decentralized, mission-driven community to thrive, it must be engineered to withstand the natural forces of conflict and stagnation. Hope and goodwill are starting points, not a complete strategy.
+A core belief of Web3Privacy Now is that deliberate structure is not an enemy of freedom, but its necessary guardian. We recognize that "structurelessness" is a myth that inevitably conceals informal, unaccountable power structures. For a decentralized community to thrive, it must be consciously engineered to withstand conflict and stagnation. Hope and goodwill are starting points, not a complete strategy.
 
 Our governance model is therefore built upon three fundamental acknowledgements—truths derived from observing the successes and failures of countless self-governing organizations:
 
-* **"Common sense" is not common.** We must create explicit principles because our members come from diverse cultures and hold different assumptions.
-* **Consensus is not always possible.** Passionate people will have conflicting goals. We need a clear process for making decisions when full agreement cannot be reached.
+* **"Common sense" is not common.** Principles must be made explicit, as our members come from diverse cultures and hold different assumptions.
+* **Consensus is not always possible.** Passionate people will have conflicting goals. We need a clear and predictable process for making decisions when full agreement cannot be reached.
 * **Inaction is the greatest risk.** An imperfect but clear process for solving problems is infinitely better than allowing them to fester unresolved.
 
-This philosophy stems from the principle of Do-ocracy. Our approach is heavily inspired by the "Hackerspace Blueprint," a document where the community at Hackerspace Gent masterfully applied these principles. To make this system truly effective for a global, digitally-native collective, we have evolved their model into what we call **Intentional Do-ocracy**—our framework for turning ideas into effective action. 
+This philosophy stems from the principle of Do-ocracy, evolved into what we call Intentional Do-ocracy—our framework for turning ideas into effective action.
 
-The goal of this Constitution is to empower our community to get the best out of themselves. It is a system designed to stimulate collaboration and creative problem-solving, and you can **[download the latest version as a PDF](https://web3privacy.github.io/constitution/w3pn-constitution.pdf)** or **[ePub](https://web3privacy.github.io/constitution/w3pn-constitution.epub)**. It is, by design, a work in progress. That is why [this Constitution is hosted on GitHub](https://github.com/web3privacy/constitution), enabling our community to continuously refine it and for other organizations to learn from our journey.
+The goal of this Constitution is to empower our community by making the "rules of the game" transparent and accessible to everyone. It is a system designed to stimulate collaboration and creative problem-solving, and you can [download the latest version as a PDF](https://web3privacy.github.io/constitution/w3pn-constitution.pdf) or [ePub](https://web3privacy.github.io/constitution/w3pn-constitution.epub). It is, by design, a work in progress. That is why [this Constitution is hosted on GitHub](https://github.com/web3privacy/constitution), enabling our community to continuously refine it and for other organizations to learn from our journey.
 
-> We, the members of Web3Privacy Now, establish this Constitution not as a set of rigid laws, but as a living framework for effective, decentralized action. We commit to building a future where privacy is a default, not a feature. This document is our shared map for navigating that journey with purpose, principle, and passion.
+> We, the members of Web3Privacy Now, establish this Constitution as a shared map for navigating our journey with purpose, principle, and passion.
 
 # 1. Overview
 
