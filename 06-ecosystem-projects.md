@@ -11,7 +11,8 @@ An initiative may be granted the status of a “Recognized Ecosystem Project” 
 The proposal must demonstrate that the project meets the following criteria:
 
 1. **Mission and Cultural Alignment:** It directly advances the W3PN mission and operates in a manner consistent with the spirit of our Guidelines (Section 8).
-2. **Operational Independence:** It maintains its own brand and leadership and is not a shared asset of W3PN.
+2. **Alignment with Open Principles:** It demonstrates a good-faith commitment to transparency and open-source development, in line with the ecosystem’s core values.
+3. **Operational Independence:** It maintains its own brand and leadership and is not a shared asset of W3PN.
 
 ## Merits of Recognition
 
