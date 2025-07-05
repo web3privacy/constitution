@@ -22,7 +22,7 @@ Our governance model is therefore built upon three fundamental acknowledgementsâ
 
 This philosophy stems from the principle of Do-ocracy, evolved into what we call Intentional Do-ocracyâ€”our framework for turning ideas into effective action.
 
-The goal of this Constitution is to empower our community by making the "rules of the game" transparent and accessible to everyone. It is a system designed to stimulate collaboration and creative problem-solving, and you can [download the latest version as a PDF](https://web3privacy.github.io/constitution/w3pn-constitution.pdf) or [ePub](https://web3privacy.github.io/constitution/w3pn-constitution.epub). It is, by design, a work in progress. That is why [this Constitution is hosted on GitHub](https://github.com/web3privacy/constitution), enabling our community to continuously refine it and for other organizations to learn from our journey.
+The goal of this Constitution is to empower our community by making the "rules of the game" transparent and accessible to everyone. It is a system designed to stimulate collaboration and creative problem-solving, and you can [download the latest version as a PDF](https://constitution.w3pn.org/w3pn-constitution.pdf) or [ePub](https://constitution.w3pn.org/w3pn-constitution.epub). It is, by design, a work in progress. That is why [this Constitution is hosted on GitHub](https://github.com/web3privacy/constitution), enabling our community to continuously refine it and for other organizations to learn from our journey.
 
 > We, the members of Web3Privacy Now, establish this Constitution as a shared map for navigating our journey with purpose, principle, and passion.
 

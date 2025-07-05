@@ -17,9 +17,9 @@ We provide multiple formats for an optimal and accessible reading experience. Th
 
 | Format | Link | Description |
 | :--- | :--- | :--- |
-| 🌐 **Web** | **[Read Online](https://web3privacy.github.io/constitution/)** | Live, searchable, and always up-to-date. |
-| 📄 **PDF** | **[Download](https://web3privacy.github.io/constitution/w3pn-constitution.pdf)** | Best for printing and offline reading. |
-| 📖 **ePub**| **[Download](https://web3privacy.github.io/constitution/w3pn-constitution.epub)** | Best for mobile and e-reader devices. |
+| 🌐 **Web** | **[Read Online](https://constitution.w3pn.org)** | Live, searchable, and always up-to-date. |
+| 📄 **PDF** | **[Download](https://constitution.w3pn.org/w3pn-constitution.pdf)** | Best for printing and offline reading. |
+| 📖 **ePub**| **[Download](https://constitution.w3pn.org/w3pn-constitution.epub)** | Best for mobile and e-reader devices. |
 
 ## Document Structure & Source Files
 
