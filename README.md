@@ -43,7 +43,7 @@ The constitution is versioned as a collection of Markdown files, with each file 
 
 This is a living document, and we welcome community input. Because this text is our foundational agreement, changes must follow a structured and transparent process.
 
-1. **Start a Discussion**: Before making any changes, please begin a discussion on our **[dedicated community forum](link-to-forum)**. This is the place to socialize your idea, gather initial feedback, and ensure it aligns with the community's goals.
+1. **Start a Discussion**: Before making any changes, please begin a discussion on our **[dedicated community forum](https://commons.w3pn.org/#narrow/stream/governance)**. This is the place to socialize your idea, gather initial feedback, and ensure it aligns with the community's goals.
 
 2. **Open a Pull Request**: Once the idea is well-defined, open a **[Pull Request (PR)](https://github.com/web3privacy/constitution/pulls)** in this repository. The PR must contain the specific, line-by-line changes to the relevant `.md` file(s). This PR serves as the clear technical specification for your proposed amendment.
 
