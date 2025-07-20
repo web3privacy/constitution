@@ -30,5 +30,5 @@ html:
 		  --css="./html-theme/css/theme.css" \
 		  --css="./html-theme/css/tufte.css" \
 		  --css="./html-theme/css/skylighting-solarized-theme.css" \
-		  --filter pandoc-sidenote
+		  --filter pandoc-sidenote \
           --metadata title="Web3Privacy Now Constitution"
