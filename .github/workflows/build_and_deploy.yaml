@@ -27,6 +27,7 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y \
           pandoc \
+          pandoc-sidenote \
           texlive-plain-generic \
           texlive-latex-extra \
           texlive-fonts-recommended \
@@ -39,7 +40,7 @@ jobs:
         pandoc --verbose \
           pandoc-metadata.yaml README.md [0-9]*.md \
           -o w3pn-constitution.epub \
-          --metadata date="$(date +%D)" \
+          --metadata date="$(date +"%Y/%m/%d")" \
           --toc-depth=2 \
           --epub-embed-font='epub-fonts/*.ttf' \
           --css=epub.css
@@ -52,7 +53,7 @@ jobs:
           --template eisvogel \
           --listings \
           --lua-filter=newpage.lua \
-          --metadata date="$(date +%D)" \
+          --metadata date="$(date +"%Y/%m/%d")" \
           --metadata abstract=""
       #--include-before-body=include-cover.tex \
       #--include-after-body=include-back.tex
@@ -68,13 +69,21 @@ jobs:
         pandoc --verbose \
           pandoc-metadata.yaml [0-9]*.md \
           -o index.html \
-          --metadata date="$(date +%D)" \
+          --metadata date="$(date +"%Y/%m/%d")" \
+          --wrap=none \
+          --from markdown+tex_math_single_backslash \
+          --to html5+smart \
           --toc \
           --toc-depth=2 \
+          --katex \
           --standalone \
-          --css=https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.min.css \
+          --template=./html-theme/template.html5 \
+          --css="./html-theme/css/theme.css" \
+          --css="./html-theme/css/tufte.css" \
+          --css="./html-theme/css/skylighting-solarized-theme.css" \
+          --filter pandoc-sidenote
           --metadata title="Web3Privacy Now Constitution"
-    
+
     - name: Create download page
       run: |
         cat > download.html << 'EOF'
@@ -137,6 +146,7 @@ jobs:
         mkdir -p _site
         cp index.html _site/
         cp download.html _site/
+        cp -R html-theme _site/html-theme
         cp w3pn-constitution.pdf _site/
         cp w3pn-constitution.epub _site/
         # == cp w3pn-constitution-booklet-body.pdf _site/
