@@ -22,7 +22,7 @@ This is the Stewards' second key function, which includes their role in Formal P
 
 * **Veto Authority:** In the Formal Proposal process, Stewards act as the final check. Their role is not to decide if they *like* a proposal, but only to determine if it causes significant harm or directly violates the principles laid out in this Constitution. If they find that it does, they can uphold a Veto.
 * **Core Asset Management:** Stewards are the designated signatories and protectors of the community's core shared assets, such as the treasury, domains, and primary social media accounts.
-* **Contributor Rewards Operation:** Stewards are the trusted, neutral operators of the Retroactive Contributor Rewards system (Section 7). This involves initiating each Funding Epoch, executing the reputation-weighted calculation transparently, and ensuring the final rewards are distributed correctly.
+* **Contributor Rewards Operation:** Stewards are the trusted, neutral operators of the Retroactive Contributor Rewards system (Section 6). This involves initiating each Funding Epoch, executing the reputation-weighted calculation transparently, and ensuring the final rewards are distributed correctly.
 
 ## Powers and Limitations
 
@@ -33,8 +33,7 @@ To maintain a true Do-ocracy, the limits of Steward power must be explicit.
 * Mediate escalated interpersonal disputes.
 * Invoke a "Steward Flag" on a Formal Proposal to unilaterally extend its review period.
 * Uphold or overrule a Veto on a Formal Proposal.
-* Execute transactions and manage administrative access for core assets, *only when instructed by a passed Formal Proposal*.
-* Operate the Contributor Rewards system, executing the calculation and distribution as defined in Section 6.
+* Execute transactions and manage administrative access for core assets, as explicitly instructed by either a passed Formal Proposal or by the operational requirements of the Contributor Rewards system (Section 7).
 
 #### Stewards DO NOT have the power to:
 
@@ -48,7 +47,9 @@ To maintain a true Do-ocracy, the limits of Steward power must be explicit.
 
 * **Composition:** There shall be **three (3)** Stewards. This odd number prevents deadlocks.
 * **Election:** Stewards are elected via the Formal Proposal process. Candidates must be active, trusted members of the community.
-* **Term:** Stewards serve for a **one-year term**. To ensure continuity, elections can be staggered (e.g., electing 1-2 Stewards every six months). A Steward may serve multiple terms if re-elected.
+* **Term:** Stewards serve for a **one-year term**. To ensure continuity, elections can be staggered (e.g., electing 1-2 Stewards every six months). A Steward may serve multiple terms if re-elected, but no individual may serve more than two consecutive terms. After a one-term break, they are eligible for re-election.
+
+Furthermore, it is a core responsibility of every Steward to actively mentor other Members in the workings of our governance, ensuring that knowledge is distributed and that a healthy pool of future Steward candidates is always being cultivated. A Steward's success is measured not only by their guardianship, but by how effectively they make their own role unnecessary.
 
 ## Accountability and Removal
 

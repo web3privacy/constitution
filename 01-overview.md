@@ -19,6 +19,7 @@ Our governance model is therefore built upon three fundamental acknowledgements�
 * **"Common sense" is not common.** Principles must be made explicit, as our members come from diverse cultures and hold different assumptions.
 * **Consensus is not always possible.** Passionate people will have conflicting goals. We need a clear and predictable process for making decisions when full agreement cannot be reached.
 * **Inaction is the greatest risk.** An imperfect but clear process for solving problems is infinitely better than allowing them to fester unresolved.
+* **Growth is not always success.** Since large groups can become bureaucratic, we consider an amicable split into smaller, more effective communities a feature of our evolution, not a failure.
 
 This philosophy stems from the principle of Do-ocracy, evolved into what we call Intentional Do-ocracy—our framework for turning ideas into effective action.
 
@@ -30,16 +31,12 @@ The goal of this Constitution is to empower our community by making the "rules o
 
 The core operating system of Web3Privacy Now is our unique model called **Intentional Do-ocracy**, detailed in Section 2. This framework empowers members by balancing freedom with a mindful process: from an initial **Dream**, through **Design** and **Action**, to a final **Reflection** on the outcome.
 
-For actions that are irreversible or commit significant resources, a **Formal Proposal** is required (Section 3). This is our safety mechanism: a consent-based process where members can raise formal objections.
+For actions that are irreversible or commit significant resources, a **Formal Proposal** is required (Section 3). This is our safety mechanism: a consent-based process where members can raise formal objections. To guard this process and our principles, Section 4 introduces the **Stewards**, who serve not as directors, but as impartial counselors and guardians.
 
-Two areas require special care: interpersonal conflict and the safeguarding of core assets. Section 4 introduces the **Stewards**, who act as impartial counselors and guardians. They hold the ultimate authority to veto a Formal Proposal if it violates our core principles, but otherwise have no power to direct the community.
+Section 5 clarifies who has a voice in our governance, distinguishing between passive **Supporters** and active **Members**, whose governance rights are earned through contribution. To formally support the initiatives that emerge from our community, Section 6 introduces **Recognized Ecosystem Projects**, defining a clear path for them to gain official endorsement. To sustain our active contributors, Section 7 outlines our system of **Contributor Rewards**, a peer-based process that retroactively thanks Members for their valuable work.
 
-Section 5 clarifies who has a voice in our governance, distinguishing between passive **Supporters** and active **Members**, whose governance rights are earned through contribution.
+As the ultimate guarantee of our resilience, Section 8 establishes **The Right to Fork**. This is our non-coercive process for enabling an amicable community split, ensuring we can evolve through stress rather than break under it.
 
-To formally support the initiatives that emerge from our community, Section 6 introduces **Recognized Ecosystem Projects**, defining a clear path for them to gain official endorsement and access shared resources.
+To ensure all these interactions are smooth and constructive, we have a set of **Guidelines** (Section 9). These are not rigid rules, but a shared cultural understanding of effective and respectful behavior.
 
-To sustain our active contributors, Section 7 outlines our system of **Contributor Rewards**. This peer-based, reputation-weighted process is how we retroactively thank Members for their valuable work.
-
-To ensure all these interactions are smooth and constructive, we have a set of **Guidelines** (Section 8). These are not rigid rules, but a shared cultural understanding of effective and respectful behavior.
-
-Finally, because the spirit of a rule is as important as its letter, we provide **The Legacy** (Section 9). This is the collection of articles, discussions, and philosophies that informed this Constitution, serving as the "cipher" to interpret our principles.
+Finally, because the spirit of a rule is as important as its letter, **The Legacy** (Section 10) serves as the “cipher” to interpret our principles. To ensure this remains a living document, **The Changelog** (Section 11) provides a transparent and auditable history of its evolution.

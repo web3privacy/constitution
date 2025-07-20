@@ -7,11 +7,11 @@
 > 3.  Points from members who are *also* highly valued are worth more.
 > 4.  The fund is split based on these final, reputation-weighted scores.
 
-## Philosophy: Rewarding Past Contributions
-
 To sustain our community, we must support our active contributors. This section outlines a process for retroactively rewarding **Members** for the valuable work they have already completed.
 
 This system is not for funding future projects. Its sole purpose is to reward the valuable contributions of individuals, trusting them to continue creating impact. It acknowledges that while all Members are valued, the level of active contribution varies over time. A Member's influence in the allocation process is therefore directly tied to their recognized contributions within that Epoch.
+
+We explicitly recognize that one of the most valuable contributions to this commons is the act of distributing knowledge and skill. Therefore, when allocating points, Members are strongly encouraged to reward activities such as mentoring new contributors, teaching others how to use our tools, creating clear documentation, and other work that reduces dependency and empowers the community to be more self-sufficient.
 
 ## The Process: Peer-Based, Reputation-Weighted Allocation
 

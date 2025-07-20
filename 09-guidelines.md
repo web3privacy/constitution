@@ -1,6 +1,6 @@
-# 8. Guidelines
+# 9. Guidelines
 
-This Constitution provides the structure for our organization, but our culture is built on the actions we take every day. These guidelines are not strict laws, but a shared understanding of how we can work together effectively and respectfully. They are the spirit that animates the letter of our rules.
+These guidelines are the principles that govern our collaboration and define our culture. While not rigid laws, they are enforceable standards. Direct and respectful conversation is the preferred method for addressing deviations, but a significant or systemic violation of any principle herein is a legitimate basis for escalating a conflict to the Stewards or initiating a Formal Proposal.
 
 ## Communication
 
@@ -29,3 +29,12 @@ This Constitution provides the structure for our organization, but our culture i
 * **Hand Off Cleanly:** If you start a project and can no longer continue it, you are responsible for communicating its status. Either officially archive it or find another member to take ownership. Don't leave "zombie" projects that confuse other contributors.
 * **Leave it Better Than You Found It:** If you use a piece of documentation, a tool, or a process and notice a small way it could be improved, take a moment to fix it. This principle of continuous, small improvements creates immense value over time.
 * **Define Roles on Team Projects**: If you initiate a project that is too large to complete alone, your first act is to define the needed roles and invite collaborators. A project without clear roles is destined for chaos, concentrates responsibility on a single person, and excludes others. Defining roles makes responsibility explicit, prevents burnout, and creates clear entry points for new contributors.
+
+## Technology & Tools - The Principle of Conviviality[^1]
+
+* **Transparent and Auditable:** Preferring open-source software over proprietary "black boxes."
+* **Privacy-Preserving:** Rejecting tools that exploit user data or rely on a surveillance-based business model.
+* **Accessible:** Usable without requiring highly specialized, professional knowledge.
+* **Decentralized or Self-Hostable:** Favoring federated, peer-to-peer, or self-hostable systems.
+
+[^1]: "Convivial technology," a principle from philosopher Ivan Illich, describes tools that enhance user freedom, creativity, and autonomy, rather than creating dependency. See *Section 10: The Legacy*.
