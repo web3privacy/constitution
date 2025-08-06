@@ -44,9 +44,9 @@ Our existing informal working groups are hereby formalized as the following nine
 
 # Part 3: Stewards
 
-Per Section 4 of our Constitution, three Stewards must be elected to serve as guardians of our constitutional principles and mediators in disputes. The following Members are nominated as our initial Stewards:
+Per Section 4 of our Constitution, three Stewards must be elected to serve as guardians of our constitutional principles and mediators in disputes. Upon ratification of this proposal, the following Members are elected as our initial Stewards:
 
-## Proposed Stewards
+## Elected Stewards
 
 - **Tree** (1 year term) - Author of our Constitution and has studied governance systems for years, providing the deepest understanding of our constitutional principles
 - **[Name 2]** (9 month term) - [Brief reason why they would be a good steward]  
@@ -61,4 +61,9 @@ These staggered initial terms ensure continuity of governance knowledge. After t
 1. **Transition Process:** This proposal formalizes existing collaborative structures within the constitutional framework, ensuring continuity while enabling decentralized governance.
 2. **Guild Operations:** Each Guild operates under Intentional Do-ocracy principles. Guild Stewards coordinate but do not command.
 3. **Cross-Guild Collaboration:** Members may participate in multiple Guilds. Projects requiring multiple skill sets will draw from relevant Guilds.
-4. **Future Evolution:** New Guilds may be created and existing ones modified through future
+4. **Future Evolution:** New Guilds may be created and existing ones modified through future Formal Proposals as our needs evolve.
+5. **Communication Channels:** Each Guild maintains its existing dedicated public channel on our [Commons platform](https://commons.w3pn.org/) (forum).
+
+---
+
+*This Genesis Proposal marks the beginning of Web3Privacy Now's constitutional era, transitioning from years of successful centralized coordination to a sustainable, decentralized governance model.*
