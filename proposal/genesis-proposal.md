@@ -18,7 +18,7 @@ The following active contributors are recognized as the initial Members under ou
 - **PG** - Managed treasury operations, built partnership relationships, coordinated communications efforts
 - **Tree** - Maintained critical infrastructure, organized events, ensured technical operations continuity
 - **Mykola** - Conducted privacy research, coordinated communications, produced educational content
-- **Peter** - Developed educational materials and programs for community learning
+- **Peter** - Developed educational materials
 - **Babybit** - Created video content and documentary materials advancing our mission
 - **Andreea** - Co-organized events and community gatherings
 - **Jensei** - Developed Privacy Builder Pack, contributed to various projects, provided valuable governance insights
@@ -39,7 +39,6 @@ Our existing informal working groups are hereby formalized as the following nine
 | **Infrastructure** | Technical operations | Tree |
 | **Communications** | Internal/external messaging | Mykola, PG |
 | **Research** | R&D and strategy | Mykola |
-| **Education** | Learning materials and programs | Peter |
 | **Video** | Video content and documentaries | Babybit |
 | **Events** | Online and in-person gatherings | Tree, Andreea |
 
