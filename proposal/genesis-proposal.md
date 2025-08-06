@@ -2,7 +2,7 @@
 
 *Web3Privacy Now* has been operating successfully for several years under a centralized governance model. With the ratification of our [Constitution](https://constitution.w3pn.org/), we are now transitioning to a decentralized, community-driven governance structure. 
 
-This Genesis Proposal marks this historic transition by formally recognizing our existing active contributors as **Members** with full governance rights and transforming our informal working groups into constitutionally-recognized **Guilds**. This establishes the clear operational structures needed for our new Intentional Do-ocracy while ensuring continuity of our ongoing work.
+This Genesis Proposal marks this historic transition by formally recognizing our existing active contributors as **Members** with full governance rights, transforming our informal working groups into constitutionally-recognized **Guilds**, and electing our first **Stewards**. This establishes the clear operational structures needed for our new Intentional Do-ocracy while ensuring continuity of our ongoing work.
 
 ## Special Bootstrap Process
 
@@ -41,6 +41,20 @@ Our existing informal working groups are hereby formalized as the following nine
 | **Education** | Learning materials and programs | Peter |
 | **Video** | Video content and documentaries | Babybit |
 | **Events** | Online and in-person gatherings | Tree, Andreea |
+
+# Part 3: Stewards
+
+Per Section 4 of our Constitution, three Stewards must be elected to serve as guardians of our constitutional principles and mediators in disputes. The following Members are nominated as our initial Stewards:
+
+## Proposed Stewards
+
+- **[Name 1]** - [Brief reason why they would be a good steward]
+- **[Name 2]** - [Brief reason why they would be a good steward]  
+- **[Name 3]** - [Brief reason why they would be a good steward]
+
+*[Note: To be filled in during the Offsite discussion]*
+
+These Stewards will serve staggered terms to ensure continuity: one for 6 months, one for 9 months, and one for a full year. After these initial terms, all future Steward terms will be one year as specified in the Constitution.
 
 ## Implementation Details
 
