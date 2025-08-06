@@ -1,4 +1,4 @@
-## Genesis Proposal (draft)
+# Genesis Proposal (draft)
 
 *Web3Privacy Now* has been operating successfully for several years under a centralized governance model. With the ratification of our [Constitution](https://constitution.w3pn.org/), we are now transitioning to a decentralized, community-driven governance structure. 
 
