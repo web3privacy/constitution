@@ -56,11 +56,9 @@ Per Section 4 of our Constitution, three Stewards must be elected to serve as gu
 
 ## Elected Stewards
 
-- **Tree** (1 year term) - Author of our Constitution and has studied governance systems for years, providing the deepest understanding of our constitutional principles
-- **[Name 2]** (9 month term) - [Brief reason why they would be a good steward]  
-- **[Name 3]** (6 month term) - [Brief reason why they would be a good steward]
-
-*[Note: Names 2 and 3 to be filled in during the Offsite discussion]*
+- **Tree** (1 year term) - Author of our Constitution, providing the deepest understanding of our constitutional principles
+- **PG** (9 month term) - Current treasury custodian with deep understanding of W3PN's financial operations and existing commitments, ensuring continuity during the transition
+- **Jensei** (6 month term) - Experienced in forum-based governance and community coordination, bringing practical knowledge of decentralized decision-making tools
 
 These staggered initial terms ensure continuity of governance knowledge. After these initial terms expire, all future Steward elections will follow the standard one-year terms as specified in the Constitution, with elections occurring at different times to maintain the staggered structure.
 
