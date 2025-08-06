@@ -8,7 +8,7 @@ This Genesis Proposal marks this historic transition by formally recognizing our
 
 The following active contributors are recognized as the initial Members under our new constitutional governance, based on their sustained contributions to W3PN over recent years:
 
-## Proposed Constitutional Members and Their Contributions
+## Proposed Members and Their Contributions
 
 - **Coinmandeer** - Led visual identity development, created merchandise designs, actively contributed to brand evolution
 - **PG** - Managed treasury operations, built partnership relationships, coordinated communications efforts
@@ -24,7 +24,7 @@ These individuals have demonstrated sustained commitment through years of contri
 
 # Part 2: Guilds
 
-Our existing informal working groups are hereby formalized as the following nine constitutional Guilds:
+Our existing informal working groups are hereby formalized as the following nine Guilds:
 
 | Guild Name | Purpose | Initial Steward(s) |
 | --- | --- | --- |
