@@ -6,13 +6,13 @@ This Genesis Proposal marks this historic transition by formally recognizing our
 
 ## Special Bootstrap Process
 
-This Genesis Proposal was developed and consensually approved during our in-person W3PN Offsite in Slovenia, where all proposed founding Members were present. As no constitutional Members exist yet to follow the standard Formal Proposal process, this proposal takes immediate effect upon collective agreement of all participants present at the Offsite and its publication on our public forum ([The Commons](https://commons.w3pn.org/)). The standard review period is waived for this founding act.
+This Genesis Proposal was developed and consensually approved during our in-person W3PN Offsite in Slovenia, where all proposed founding Members were present. As no constitutional Members exist yet to follow the standard Formal Proposal process, this proposal takes immediate effect upon collective agreement of all participants present at the Offsite and its publication on our public forum. The standard review period is waived for this founding act.
 
 # Part 1: Members
 
 The following active contributors are recognized as the initial Members under our new constitutional governance, based on their sustained contributions to W3PN over recent years:
 
-## Proposed Members and Their Contributions
+## Proposed Members and Their Contributions (8)
 
 - **Coinmandeer** - Led visual identity development, created merchandise designs, actively contributed to brand evolution
 - **PG** - Managed treasury operations, built partnership relationships, coordinated communications efforts
@@ -21,6 +21,7 @@ The following active contributors are recognized as the initial Members under ou
 - **Peter** - Developed educational materials and programs for community learning
 - **Babybit** - Created video content and documentary materials advancing our mission
 - **Andreea** - Co-organized events and community gatherings
+- **Jensei** - Developed Privacy Builder Pack, contributed to various projects, provided valuable governance insights
 
 *[Note: Add any additional active contributors]*
 
