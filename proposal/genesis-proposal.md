@@ -4,6 +4,10 @@
 
 This Genesis Proposal marks this historic transition by formally recognizing our existing active contributors as **Members** with full governance rights and transforming our informal working groups into constitutionally-recognized **Guilds**. This establishes the clear operational structures needed for our new Intentional Do-ocracy while ensuring continuity of our ongoing work.
 
+## Special Bootstrap Process
+
+This Genesis Proposal was developed and consensually approved during our in-person W3PN Offsite in Slovenia, where all proposed founding Members were present. As no constitutional Members exist yet to follow the standard Formal Proposal process, this proposal takes immediate effect upon collective agreement of all participants present at the Offsite. The standard review period is waived for this founding act.
+
 # Part 1: Members
 
 The following active contributors are recognized as the initial Members under our new constitutional governance, based on their sustained contributions to W3PN over recent years:
@@ -45,6 +49,7 @@ Our existing informal working groups are hereby formalized as the following nine
 3. **Cross-Guild Collaboration:** Members may participate in multiple Guilds. Projects requiring multiple skill sets will draw from relevant Guilds.
 4. **Future Evolution:** New Guilds may be created and existing ones modified through future Formal Proposals as our needs evolve.
 5. **Communication Channels:** Each Guild maintains its existing dedicated public channel on our [Commons platform](https://commons.w3pn.org/) (forum).
+
 ---
 
 *This Genesis Proposal marks the beginning of Web3Privacy Now's constitutional era, transitioning from years of successful centralized coordination to a sustainable, decentralized governance model.*
