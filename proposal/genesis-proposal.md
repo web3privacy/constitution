@@ -56,7 +56,7 @@ Per Section 4 of our Constitution, three Stewards must be elected to serve as gu
 
 These Stewards will serve staggered terms to ensure continuity: one for 6 months, one for 9 months, and one for a full year. After these initial terms, all future Steward terms will be one year as specified in the Constitution.
 
-## Implementation Details
+### Implementation Details
 
 1. **Transition Process:** This proposal formalizes existing collaborative structures within the constitutional framework, ensuring continuity while enabling decentralized governance.
 2. **Guild Operations:** Each Guild operates under Intentional Do-ocracy principles. Guild Stewards coordinate but do not command.
