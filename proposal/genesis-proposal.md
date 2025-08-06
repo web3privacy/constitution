@@ -77,6 +77,14 @@ While constitutional governance begins immediately upon ratification, we acknowl
 - **Terminology**: "Member" now refers to constitutional governance participants; financial donors/sponsors are now "Supporters"
 
 ## 30-Day Commitments
+- **Project Legitimization**:
+  - All existing project leaders must post on the forum:
+    - Project description and objectives
+    - Current status and progress
+    - Budget allocation (if any)
+    - Team members involved
+    - Expected completion timeline
+  - Projects without forum documentation by day 30 lose access to resources
 - **Guild Activation**:
   - Each Guild steward creates basic operational documentation (purpose, scope, how to contribute)
   - Guilds identify immediate needs and skill gaps
