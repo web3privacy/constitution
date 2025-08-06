@@ -44,7 +44,7 @@ Our existing informal working groups are hereby formalized as the following nine
 2. **Guild Operations:** Each Guild operates under Intentional Do-ocracy principles. Guild Stewards coordinate but do not command.
 3. **Cross-Guild Collaboration:** Members may participate in multiple Guilds. Projects requiring multiple skill sets will draw from relevant Guilds.
 4. **Future Evolution:** New Guilds may be created and existing ones modified through future Formal Proposals as our needs evolve.
-5. **Communication Channels:** Each Guild maintains its existing dedicated channel on our commons platform.
+5. **Communication Channels:** Each Guild maintains its existing dedicated public channel on our [Commons platform](https://commons.w3pn.org/) (forum).
 ---
 
 *This Genesis Proposal marks the beginning of Web3Privacy Now's constitutional era, transitioning from years of successful centralized coordination to a sustainable, decentralized governance model.*
