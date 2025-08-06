@@ -33,7 +33,7 @@ Our existing informal working groups are hereby formalized as the following nine
 
 | Guild Name | Purpose | Initial Steward(s) |
 | --- | --- | --- |
-| **Visuals & Merch** | Visual assets and merchandise | Coinmandeer |
+| **Design & Brand** | Visual identity, branding, and merch | Coinmandeer |
 | **Partnerships** | External relationships | PG |
 | **Treasury** | Financial management | PG |
 | **Infrastructure** | Technical operations | Tree |
