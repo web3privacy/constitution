@@ -73,23 +73,30 @@ While constitutional governance begins immediately upon ratification, we acknowl
 - All NEW decisions must follow constitutional processes
 - Members have full governance rights
 - Stewards assume their roles
+- **Terminology**: "Member" now refers to constitutional governance participants; financial donors/sponsors are now "Supporters"
 
 ## 30-Day Commitments
 - Treasury Guild will propose a treasury decentralization plan via Formal Proposal
 - All existing projects and budget commitments will be documented publicly on the forum
 - Infrastructure Guild will conduct forum onboarding sessions for all Members
+- Add basic Constitution link and governance info to existing website
 
 ## 90-Day Targets
 - All new budget allocations exclusively via Formal Proposals
 - First Retroactive Contributor Rewards round (Q4 2025)
 - Migration of all active project management to constitutional framework
+- **Website & Documentation Overhaul**: Launch fully updated website and documentation reflecting:
+  - Constitutional governance structure
+  - Member vs Supporter distinction
+  - Guild structure and responsibilities
+  - How to participate and contribute
+  - Complete governance processes and guides
 - Review and potential first constitutional amendment if needed
 
 ## Legacy Commitments
 - Existing contractual obligations and approved budgets will be honored until completion
 - Any modifications to existing commitments require Formal Proposals
 - All legacy decisions must be documented with clear sunset dates
-
 ---
 
 *This Genesis Proposal marks the beginning of Web3Privacy Now's constitutional era, transitioning from years of successful centralized coordination to a sustainable, decentralized governance model.*
