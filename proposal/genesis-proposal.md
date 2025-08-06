@@ -6,7 +6,7 @@ This Genesis Proposal marks this historic transition by formally recognizing our
 
 ## Special Bootstrap Process
 
-This Genesis Proposal was developed and consensually approved during our in-person W3PN Offsite in Slovenia, where all proposed founding Members were present. As no constitutional Members exist yet to follow the standard Formal Proposal process, this proposal takes immediate effect upon collective agreement of all participants present at the Offsite. The standard review period is waived for this founding act.
+This Genesis Proposal was developed and consensually approved during our in-person W3PN Offsite in Slovenia, where all proposed founding Members were present. As no constitutional Members exist yet to follow the standard Formal Proposal process, this proposal takes immediate effect upon collective agreement of all participants present at the Offsite and its publication on our public forum ([The Commons](https://commons.w3pn.org/)). The standard review period is waived for this founding act.
 
 # Part 1: Members
 
