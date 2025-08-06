@@ -57,6 +57,32 @@ Per Section 4 of our Constitution, three Stewards must be elected to serve as gu
 
 These staggered initial terms ensure continuity of governance knowledge. After these initial terms expire, all future Steward elections will follow the standard one-year terms as specified in the Constitution, with elections occurring at different times to maintain the staggered structure.
 
+# Part 4: Transition Roadmap
+
+While constitutional governance begins immediately upon ratification, we acknowledge that full transition from centralized operations will require time. This roadmap establishes clear commitments and timelines:
+
+## Immediate Changes (Effective Upon Ratification)
+- Constitutional governance is active
+- All NEW decisions must follow constitutional processes
+- Members have full governance rights
+- Stewards assume their roles
+
+## 30-Day Commitments
+- Treasury Guild will propose a treasury decentralization plan via Formal Proposal
+- All existing projects and budget commitments will be documented publicly on the forum
+- Infrastructure Guild will conduct forum onboarding sessions for all Members
+
+## 90-Day Targets
+- All new budget allocations exclusively via Formal Proposals
+- First Retroactive Contributor Rewards round (Q4 2025)
+- Migration of all active project management to constitutional framework
+- Review and potential first constitutional amendment if needed
+
+## Legacy Commitments
+- Existing contractual obligations and approved budgets will be honored until completion
+- Any modifications to existing commitments require Formal Proposals
+- All legacy decisions must be documented with clear sunset dates
+
 # Implementation Details
 
 1. **Transition Process:** This proposal formalizes existing collaborative structures within the constitutional framework, ensuring continuity while enabling decentralized governance.
