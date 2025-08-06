@@ -43,6 +43,13 @@ Our existing informal working groups are hereby formalized as the following nine
 | **Video** | Video content and documentaries | Babybit |
 | **Events** | Online and in-person gatherings | Tree, Andreea |
 
+## Guild Operations
+
+- **Intentional Do-ocracy**: Each Guild operates under Intentional Do-ocracy principles. Guild Stewards coordinate but do not command.
+- **Cross-Guild Collaboration**: Members may participate in multiple Guilds. Projects requiring multiple skill sets will draw from relevant Guilds.
+- **Evolution**: New Guilds may be created and existing ones modified through future Formal Proposals as our needs evolve.
+- **Communication**: Each Guild maintains its existing dedicated public channel on our [Commons platform](https://commons.w3pn.org/) (forum).
+
 # Part 3: Stewards
 
 Per Section 4 of our Constitution, three Stewards must be elected to serve as guardians of our constitutional principles and mediators in disputes. Upon ratification of this proposal, the following Members are elected as our initial Stewards:
@@ -82,14 +89,6 @@ While constitutional governance begins immediately upon ratification, we acknowl
 - Existing contractual obligations and approved budgets will be honored until completion
 - Any modifications to existing commitments require Formal Proposals
 - All legacy decisions must be documented with clear sunset dates
-
-# Implementation Details
-
-1. **Transition Process:** This proposal formalizes existing collaborative structures within the constitutional framework, ensuring continuity while enabling decentralized governance.
-2. **Guild Operations:** Each Guild operates under Intentional Do-ocracy principles. Guild Stewards coordinate but do not command.
-3. **Cross-Guild Collaboration:** Members may participate in multiple Guilds. Projects requiring multiple skill sets will draw from relevant Guilds.
-4. **Future Evolution:** New Guilds may be created and existing ones modified through future Formal Proposals as our needs evolve.
-5. **Communication Channels:** Each Guild maintains its existing dedicated public channel on our [Commons platform](https://commons.w3pn.org/) (forum).
 
 ---
 
