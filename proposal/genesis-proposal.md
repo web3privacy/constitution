@@ -8,11 +8,11 @@ This Genesis Proposal marks this historic transition by formally recognizing our
 
 This Genesis Proposal was developed and consensually approved during our in-person W3PN Offsite in Slovenia, where all proposed founding Members were present. As no constitutional Members exist yet to follow the standard Formal Proposal process, this proposal takes immediate effect upon collective agreement of all participants present at the Offsite and its publication on our public forum. The standard review period is waived for this founding act.
 
-## Part 0: Core Commitments
+# Part 0: Core Commitments
 
 By ratifying this Genesis Proposal, all founding Members commit to embracing our new constitutional governance model:
 
-### Foundational Principles
+## Foundational Principles
 
 1. **Constitutional Governance**: The Constitution becomes our primary governance framework. All major decisions affecting the community follow constitutional processes.
 
@@ -24,7 +24,7 @@ By ratifying this Genesis Proposal, all founding Members commit to embracing our
 
 5. **Documented Decision-Making**: Important decisions must be recorded on our forum. Verbal agreements about community resources or direction need written documentation to be valid.
 
-### Implementation Approach
+## Implementation Approach
 
 - **Learning Together**: We recognize this is a significant transition. Members support each other in understanding and adapting to new processes
 - **Grace Period**: The 30 and 90-day timelines allow for adjustment while maintaining momentum toward full implementation
