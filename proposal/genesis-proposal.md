@@ -8,6 +8,31 @@ This Genesis Proposal marks this historic transition by formally recognizing our
 
 This Genesis Proposal was developed and consensually approved during our in-person W3PN Offsite in Slovenia, where all proposed founding Members were present. As no constitutional Members exist yet to follow the standard Formal Proposal process, this proposal takes immediate effect upon collective agreement of all participants present at the Offsite and its publication on our public forum. The standard review period is waived for this founding act.
 
+## Part 0: Core Commitments
+
+By ratifying this Genesis Proposal, all founding Members commit to embracing our new constitutional governance model:
+
+### Foundational Principles
+
+1. **Constitutional Governance**: The Constitution becomes our primary governance framework. All major decisions affecting the community follow constitutional processes.
+
+2. **Intentional Do-ocracy**: We embrace a model where authority comes from active contribution and taking responsibility for outcomes, not from titles or historical positions.
+
+3. **Transparent by Default**: Community decisions, budgets, and governance activities should be public and documented. Private discussions remain appropriate for sensitive personal matters, conflict resolution, and early-stage brainstorming.
+
+4. **Progressive Decentralization**: We commit to steadily reducing single points of control, particularly over treasury and critical infrastructure, according to the timeline in this proposal.
+
+5. **Documented Decision-Making**: Important decisions must be recorded on our forum. Verbal agreements about community resources or direction need written documentation to be valid.
+
+### Implementation Approach
+
+- **Learning Together**: We recognize this is a significant transition. Members support each other in understanding and adapting to new processes
+- **Grace Period**: The 30 and 90-day timelines allow for adjustment while maintaining momentum toward full implementation
+- **Iterative Improvement**: We can refine processes through Formal Proposals as we learn what works best
+- **Good Faith Effort**: We expect genuine commitment to the transition, even as we work through the details together
+
+**By becoming a founding Member, you agree to work constructively toward these shared goals.**
+
 # Part 1: Members
 
 The following active contributors are recognized as the initial Members under our new constitutional governance, based on their sustained contributions to W3PN over recent years:
